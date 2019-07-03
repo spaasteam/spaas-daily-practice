@@ -3,6 +3,7 @@
 * [`第一题: 实现 (5).add(3).minus(2) 功能`](#%E7%AC%AC%E4%B8%80%E9%A2%98%3A%20%E5%AE%9E%E7%8E%B0%20(5).add(3).minus(2)%20%E5%8A%9F%E8%83%BD)
 * [`第二题: 算法手写题`](#%E7%AC%AC%E4%BA%8C%E9%A2%98%3A%20%E7%AE%97%E6%B3%95%E6%89%8B%E5%86%99%E9%A2%98)
 * [`第三题: 算法手写题`](#%E7%AC%AC%E4%B8%89%E9%A2%98%3A%20%E7%AE%97%E6%B3%95%E6%89%8B%E5%86%99%E9%A2%98)
+* [`第四题: 实现 convert 方法，把原始 list 转换成树形结构，要求尽可能降低时间复杂度`](#%E7%AC%AC%E5%9B%9B%E9%A2%98%3A%20%E5%AE%9E%E7%8E%B0%20convert%20%E6%96%B9%E6%B3%95%EF%BC%8C%E6%8A%8A%E5%8E%9F%E5%A7%8B%20list%20%E8%BD%AC%E6%8D%A2%E6%88%90%E6%A0%91%E5%BD%A2%E7%BB%93%E6%9E%84%EF%BC%8C%E8%A6%81%E6%B1%82%E5%B0%BD%E5%8F%AF%E8%83%BD%E9%99%8D%E4%BD%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6)
 ---
 
 
@@ -39,9 +40,71 @@
 
 
 
+### 第四题: 实现 convert 方法，把原始 list 转换成树形结构，要求尽可能降低时间复杂度
 
+2019-7-3
 
+以下数据结构中，id 代表部门编号，name 是部门名称，parentId 是父部门编号，为 0 代表一级部门，现在要求实现一个 convert 方法，把原始 list 转换成树形结构，parentId 为多少就挂载在该 id 的属性 children 数组下，结构如下：
 
+<details>
+<summary>详情</summary>
+
+```js
+// 原始 list 如下
+let list =[
+    {id:1,name:'部门A',parentId:0},
+    {id:2,name:'部门B',parentId:0},
+    {id:3,name:'部门C',parentId:1},
+    {id:4,name:'部门D',parentId:1},
+    {id:5,name:'部门E',parentId:2},
+    {id:6,name:'部门F',parentId:3},
+    {id:7,name:'部门G',parentId:2},
+    {id:8,name:'部门H',parentId:4}
+];
+const result = convert(list, ...);
+
+// 转换后的结果如下
+let result = [
+    {
+      id: 1,
+      name: '部门A',
+      parentId: 0,
+      children: [
+        {
+          id: 3,
+          name: '部门C',
+          parentId: 1,
+          children: [
+            {
+              id: 6,
+              name: '部门F',
+              parentId: 3
+            }, {
+              id: 16,
+              name: '部门L',
+              parentId: 3
+            }
+          ]
+        },
+        {
+          id: 4,
+          name: '部门D',
+          parentId: 1,
+          children: [
+            {
+              id: 8,
+              name: '部门H',
+              parentId: 4
+            }
+          ]
+        }
+      ]
+    },
+  ···
+];
+```
+
+</details>
 
 
 
