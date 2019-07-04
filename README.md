@@ -3,9 +3,40 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 ## 今日题目
-2019-7-3
+2019-7-4
 
-1. 实现 convert 方法，把原始 list 转换成树形结构，要求尽可能降低时间复杂度
+### 要求设计 LazyMan 类，实现以下功能
+
+```js
+LazyMan('Tony');
+// Hi I am Tony
+
+LazyMan('Tony').sleep(10).eat('lunch');
+// Hi I am Tony
+// 等待了10秒...
+// I am eating lunch
+
+LazyMan('Tony').eat('lunch').sleep(10).eat('dinner');
+// Hi I am Tony
+// I am eating lunch
+// 等待了10秒...
+// I am eating diner
+
+LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk food');
+// Hi I am Tony
+// 等待了5秒...
+// I am eating lunch
+// I am eating dinner
+// 等待了10秒...
+// I am eating junk food
+```
+
+做题链接: [第 4 题](https://github.com/spaasteam/spaas-daily-practice/issues/6)
+--- 
+
+## 历史题目
+
+### 实现 convert 方法，把原始 list 转换成树形结构，要求尽可能降低时间复杂度
 
 以下数据结构中，id 代表部门编号，name 是部门名称，parentId 是父部门编号，为 0 代表一级部门，现在要求实现一个 convert 方法，把原始 list 转换成树形结构，parentId 为多少就挂载在该 id 的属性 children 数组下，结构如下：
 
@@ -70,15 +101,7 @@ let result = [
 
 </details>
 
-
-做题链接: [第 4 题](https://github.com/spaasteam/spaas-daily-practice/issues/6)
---- 
-
-## 历史题目
-
-2019-7-2
-
-1. 这是一个大题目，分为4个考点，需要候选人用递归算法实现，限制15行代码内实现。
+### 这是一个大题目，分为4个考点，需要候选人用递归算法实现，限制15行代码内实现。
   - 创建一个长度为 5 的空数组 arr
   - 生成一个 (2 ~ 32) 之间的随机整数 rand
   - 把随机数 rand 插入数组 arr 内，如果数组 arr 内已存在与 rand 相同数字，则重新生成随机数并插入到 arr 内（需要用递归实现，不能使用 for/while 等循环）
@@ -86,7 +109,8 @@ let result = [
 
 做题链接: [第 3 题](https://github.com/spaasteam/spaas-daily-practice/issues/4)
 
-2019-7-1
+
+### 算法手写题
 
 > 已知如下数组：
 >
@@ -97,7 +121,7 @@ let result = [
 做题链接: [第 2 题](https://github.com/spaasteam/spaas-daily-practice/issues/4)
 
 
-2019-6-28
+### 算法手写题
 
 > 实现 (5).add(3).minus(2) 功能
 
