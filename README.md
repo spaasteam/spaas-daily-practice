@@ -3,9 +3,43 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 ## 今日题目
-2019-7-4
+2019-07-05
+
+### 走迷宫
+
+```js
+/**
+ * @title 迷宫
+ * @description
+ * 1. 实现一个函数 getMazePath(迷宫矩阵，开始位置, 结束位置)，
+ *     获得从迷宫（二维数组）开始位置到结束位置的所有坐标，按先后顺序排序
+ * 2. 1为不可走，0为可走
+ * 3. 广度优先算法
+ */
+
+// 迷宫
+const maze = [
+  [1, 1, 1, 1, 1],
+  [1, 1, 0, 0, 0],
+  [1, 0, 0, 1, 1],
+  [0, 0, 1, 0, 1],
+  [1, 0, 0, 0, 1],
+  [1, 1, 1, 1, 1],
+]
+const mazePaths = getMazePath(maze, [3, 0], [1, 4])
+console.log(mazePaths)
+// output: [ [3,0], [3,1], [2,1], [2,2], [1,2], [1,3], [1,4]]
+```
+
+做题链接: [第 6 题](https://github.com/spaasteam/spaas-daily-practice/issues/8)
+--- 
+
+## 历史题目
 
 ### 要求设计 LazyMan 类，实现以下功能
+
+<details>
+<summary>详情</summary>
 
 ```js
 LazyMan('Tony');
@@ -31,10 +65,7 @@ LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk foo
 // I am eating junk food
 ```
 
-做题链接: [第 4 题](https://github.com/spaasteam/spaas-daily-practice/issues/6)
---- 
-
-## 历史题目
+</details>
 
 ### 实现 convert 方法，把原始 list 转换成树形结构，要求尽可能降低时间复杂度
 
