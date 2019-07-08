@@ -2,37 +2,21 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-## 今日题目
-2019-07-05
-
-### 走迷宫
+### 今日题目 旋转数组算法题
 
 ```js
-/**
- * @title 迷宫
- * @description
- * 1. 实现一个函数 getMazePath(迷宫矩阵，开始位置, 结束位置)，
- *     获得从迷宫（二维数组）开始位置到结束位置的所有坐标，按先后顺序排序
- * 2. 1为不可走，0为可走
- * 3. 广度优先算法
- */
+// 编写一个函数 rotate 达到旋转数组的效果
 
-// 迷宫
-const maze = [
-  [1, 1, 1, 1, 1],
-  [1, 1, 0, 0, 0],
-  [1, 0, 0, 1, 1],
-  [0, 0, 1, 0, 1],
-  [1, 0, 0, 0, 1],
-  [1, 1, 1, 1, 1],
-]
-const mazePaths = getMazePath(maze, [3, 0], [1, 4])
-console.log(mazePaths)
-// output: [ [3,0], [3,1], [2,1], [2,2], [1,2], [1,3], [1,4]]
+function rotate(A) {}
+
+const arr = [1, 2, 3, 4, 5]
+
+rotate(arr)  // [5, 4, 3, 2, 1]
 ```
 
-做题链接: [第 6 题](https://github.com/spaasteam/spaas-daily-practice/issues/8)
---- 
+做题连接: [第 7 题](https://github.com/spaasteam/spaas-daily-practice/issues/9)
+
+ 
 
 ## 历史题目
 
@@ -152,13 +136,37 @@ let result = [
 做题链接: [第 2 题](https://github.com/spaasteam/spaas-daily-practice/issues/4)
 
 
-### 算法手写题
+### 走迷宫
 
-> 实现 (5).add(3).minus(2) 功能
+```js
+/**
+ * @title 迷宫
+ * @description
+ * 1. 实现一个函数 getMazePath(迷宫矩阵，开始位置, 结束位置)，
+ *     获得从迷宫（二维数组）开始位置到结束位置的所有坐标，按先后顺序排序
+ * 2. 1为不可走，0为可走
+ * 3. 广度优先算法
+ */
 
-做题连接: [第 1 题](https://github.com/spaasteam/spaas-daily-practice/issues/1)
+// 迷宫
+const maze = [
+  [1, 1, 1, 1, 1],
+  [1, 1, 0, 0, 0],
+  [1, 0, 0, 1, 1],
+  [0, 0, 1, 0, 1],
+  [1, 0, 0, 0, 1],
+  [1, 1, 1, 1, 1],
+]
+const mazePaths = getMazePath(maze, [3, 0], [1, 4])
+console.log(mazePaths)
+// output: [ [3,0], [3,1], [2,1], [2,2], [1,2], [1,3], [1,4]]
+```
+
+做题链接: [第 6 题](https://github.com/spaasteam/spaas-daily-practice/issues/8)
+---
 
 ---
+
 
 ### 更多历史题目请查看 datum/summary.md 查看
 

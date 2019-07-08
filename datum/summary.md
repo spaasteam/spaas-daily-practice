@@ -5,6 +5,9 @@
 * [`第三题: 算法手写题`](#%E7%AC%AC%E4%B8%89%E9%A2%98%3A%20%E7%AE%97%E6%B3%95%E6%89%8B%E5%86%99%E9%A2%98)
 * [`第四题: 实现 convert 方法，把原始 list 转换成树形结构，要求尽可能降低时间复杂度`](#%E7%AC%AC%E5%9B%9B%E9%A2%98%3A%20%E5%AE%9E%E7%8E%B0%20convert%20%E6%96%B9%E6%B3%95%EF%BC%8C%E6%8A%8A%E5%8E%9F%E5%A7%8B%20list%20%E8%BD%AC%E6%8D%A2%E6%88%90%E6%A0%91%E5%BD%A2%E7%BB%93%E6%9E%84%EF%BC%8C%E8%A6%81%E6%B1%82%E5%B0%BD%E5%8F%AF%E8%83%BD%E9%99%8D%E4%BD%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6)
 * [`第五题 要求设计 LazyMan 类，实现以下功能`](#%E7%AC%AC%E4%BA%94%E9%A2%98%20%E8%A6%81%E6%B1%82%E8%AE%BE%E8%AE%A1%20LazyMan%20%E7%B1%BB%EF%BC%8C%E5%AE%9E%E7%8E%B0%E4%BB%A5%E4%B8%8B%E5%8A%9F%E8%83%BD)
+* [`第六题 走迷宫`](#%E7%AC%AC%E5%85%AD%E9%A2%98%20%E8%B5%B0%E8%BF%B7%E5%AE%AB)
+* [`第七题 旋转数组`](#%E7%AC%AC%E4%B8%83%E9%A2%98%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%AE%97%E6%B3%95%E9%A2%98)
+
 ---
 
 
@@ -137,3 +140,48 @@ LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk foo
 
 
 
+
+
+
+### 第六题 走迷宫
+
+```js
+/**
+ * @title 迷宫
+ * @description
+ * 1. 实现一个函数 getMazePath(迷宫矩阵，开始位置, 结束位置)，
+ *     获得从迷宫（二维数组）开始位置到结束位置的所有坐标，按先后顺序排序
+ * 2. 1为不可走，0为可走
+ * 3. 广度优先算法
+ */
+
+// 迷宫
+const maze = [
+  [1, 1, 1, 1, 1],
+  [1, 1, 0, 0, 0],
+  [1, 0, 0, 1, 1],
+  [0, 0, 1, 0, 1],
+  [1, 0, 0, 0, 1],
+  [1, 1, 1, 1, 1],
+]
+const mazePaths = getMazePath(maze, [3, 0], [1, 4])
+console.log(mazePaths)
+// output: [ [3,0], [3,1], [2,1], [2,2], [1,2], [1,3], [1,4]]
+```
+
+做题链接: [第 6 题](https://github.com/spaasteam/spaas-daily-practice/issues/8)
+
+
+###  第七题 旋转数组算法题
+
+```js
+// 编写一个函数 rotate 达到旋转数组的效果
+
+function rotate(A) {}
+
+const arr = [1, 2, 3, 4, 5]
+
+rotate(arr)  // [5, 4, 3, 2, 1]
+```
+
+做题连接: [第 7 题](https://github.com/spaasteam/spaas-daily-practice/issues/9)
