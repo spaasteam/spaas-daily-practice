@@ -7,7 +7,7 @@
 * [`第五题 要求设计 LazyMan 类，实现以下功能`](#%E7%AC%AC%E4%BA%94%E9%A2%98%20%E8%A6%81%E6%B1%82%E8%AE%BE%E8%AE%A1%20LazyMan%20%E7%B1%BB%EF%BC%8C%E5%AE%9E%E7%8E%B0%E4%BB%A5%E4%B8%8B%E5%8A%9F%E8%83%BD)
 * [`第六题 走迷宫`](#%E7%AC%AC%E5%85%AD%E9%A2%98%20%E8%B5%B0%E8%BF%B7%E5%AE%AB)
 * [`第七题 旋转数组`](#%E7%AC%AC%E4%B8%83%E9%A2%98%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%AE%97%E6%B3%95%E9%A2%98)
-
+* [`第八题 算法题之 [移动零]`](#%E7%AC%AC%E5%85%AB%E9%A2%98%20%E7%AE%97%E6%B3%95%E9%A2%98%E4%B9%8B%E3%80%8C%E7%A7%BB%E5%8A%A8%E9%9B%B6%E3%80%8D)
 ---
 
 
@@ -185,3 +185,20 @@ rotate(arr)  // [5, 4, 3, 2, 1]
 ```
 
 做题连接: [第 7 题](https://github.com/spaasteam/spaas-daily-practice/issues/9)
+
+
+### 第八题 算法题之「移动零」
+
+>给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
+>
+>示例:
+>
+>输入: [0,1,0,3,12]
+>输出: [1,3,12,0,0]
+>说明:
+>
+>必须在原数组上操作，不能拷贝额外的数组。
+>
+>尽量减少操作次数
+
+做题链接: [第八题](https://github.com/spaasteam/spaas-daily-practice/issues/10)
