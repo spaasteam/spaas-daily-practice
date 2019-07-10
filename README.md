@@ -2,62 +2,24 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 算法题之「移动零」
-
->给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
->
->示例:
->
->输入: [0,1,0,3,12]
->输出: [1,3,12,0,0]
->说明:
->
->必须在原数组上操作，不能拷贝额外的数组。
->
->尽量减少操作次数
-
-做题链接: [第八题](https://github.com/spaasteam/spaas-daily-practice/issues/10)
+### 今日题目 
 
 ## 历史题目
 
-### 要求设计 LazyMan 类，实现以下功能
+### 实现 (5).add(3).minus(2) 功能
 
-<details>
-<summary>详情</summary>
+做题链接: [第 1 题](https://github.com/spaasteam/spaas-daily-practice/issues/1)
 
-```js
-LazyMan('Tony');
-// Hi I am Tony
 
-LazyMan('Tony').sleep(10).eat('lunch');
-// Hi I am Tony
-// 等待了10秒...
-// I am eating lunch
+### 算法手写题
 
-LazyMan('Tony').eat('lunch').sleep(10).eat('dinner');
-// Hi I am Tony
-// I am eating lunch
-// 等待了10秒...
-// I am eating diner
+> 已知如下数组：
+>
+> var arr = [ [1, 2, 2], [3, 4, 5, 5], [6, 7, 8, 9, [11, 12, [12, 13, [14] ] ] ], 10];
+>
+> 编写一个程序将数组扁平化去并除其中重复部分数据，最终得到一个升序且不重复的数组
 
-LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk food');
-// Hi I am Tony
-// 等待了5秒...
-// I am eating lunch
-// I am eating dinner
-// 等待了10秒...
-// I am eating junk food
-```
-
-</details>
-
-### 实现 convert 方法，把原始 list 转换成树形结构，要求尽可能降低时间复杂度
-
-以下数据结构中，id 代表部门编号，name 是部门名称，parentId 是父部门编号，为 0 代表一级部门，现在要求实现一个 convert 方法，把原始 list 转换成树形结构，parentId 为多少就挂载在该 id 的属性 children 数组下，结构如下：
-
-<details>
-<summary>详情</summary>
-
+做题链接: [第 2 题](https://github.com/spaasteam/spaas-daily-practice/issues/4)
 
 ```js
 // 原始 list 如下
@@ -124,16 +86,109 @@ let result = [
 
 做题链接: [第 3 题](https://github.com/spaasteam/spaas-daily-practice/issues/4)
 
+### 实现 convert 方法，把原始 list 转换成树形结构，要求尽可能降低时间复杂度
 
-### 算法手写题
+以下数据结构中，id 代表部门编号，name 是部门名称，parentId 是父部门编号，为 0 代表一级部门，现在要求实现一个 convert 方法，把原始 list 转换成树形结构，parentId 为多少就挂载在该 id 的属性 children 数组下，结构如下：
 
-> 已知如下数组：
->
-> var arr = [ [1, 2, 2], [3, 4, 5, 5], [6, 7, 8, 9, [11, 12, [12, 13, [14] ] ] ], 10];
->
-> 编写一个程序将数组扁平化去并除其中重复部分数据，最终得到一个升序且不重复的数组
 
-做题链接: [第 2 题](https://github.com/spaasteam/spaas-daily-practice/issues/4)
+<details>
+<summary>详情</summary>
+
+```js
+// 原始 list 如下
+let list =[
+    {id:1,name:'部门A',parentId:0},
+    {id:2,name:'部门B',parentId:0},
+    {id:3,name:'部门C',parentId:1},
+    {id:4,name:'部门D',parentId:1},
+    {id:5,name:'部门E',parentId:2},
+    {id:6,name:'部门F',parentId:3},
+    {id:7,name:'部门G',parentId:2},
+    {id:8,name:'部门H',parentId:4}
+];
+const result = convert(list, ...);
+
+// 转换后的结果如下
+let result = [
+    {
+      id: 1,
+      name: '部门A',
+      parentId: 0,
+      children: [
+        {
+          id: 3,
+          name: '部门C',
+          parentId: 1,
+          children: [
+            {
+              id: 6,
+              name: '部门F',
+              parentId: 3
+            }, {
+              id: 16,
+              name: '部门L',
+              parentId: 3
+            }
+          ]
+        },
+        {
+          id: 4,
+          name: '部门D',
+          parentId: 1,
+          children: [
+            {
+              id: 8,
+              name: '部门H',
+              parentId: 4
+            }
+          ]
+        }
+      ]
+    },
+  ···
+];
+```
+
+</details>
+
+做题链接: [第 4 题](https://github.com/spaasteam/spaas-daily-practice/issues/6)
+
+
+### 要求设计 LazyMan 类，实现以下功能
+
+<details>
+<summary>详情</summary>
+
+```js
+LazyMan('Tony');
+// Hi I am Tony
+
+LazyMan('Tony').sleep(10).eat('lunch');
+// Hi I am Tony
+// 等待了10秒...
+// I am eating lunch
+
+LazyMan('Tony').eat('lunch').sleep(10).eat('dinner');
+// Hi I am Tony
+// I am eating lunch
+// 等待了10秒...
+// I am eating diner
+
+LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk food');
+// Hi I am Tony
+// 等待了5秒...
+// I am eating lunch
+// I am eating dinner
+// 等待了10秒...
+// I am eating junk food
+```
+
+</details>
+
+<details>
+<summary>详情</summary>
+
+做题链接: [第 5 题](https://github.com/spaasteam/spaas-daily-practice/issues/7)
 
 
 ### 走迷宫
@@ -179,6 +234,22 @@ rotate(arr)  // [5, 4, 3, 2, 1]
 
 做题连接: [第 7 题](https://github.com/spaasteam/spaas-daily-practice/issues/9)
 
+
+### 算法题之「移动零」
+
+>给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
+>
+>示例:
+>
+>输入: [0,1,0,3,12]
+>输出: [1,3,12,0,0]
+>说明:
+>
+>必须在原数组上操作，不能拷贝额外的数组。
+>
+>尽量减少操作次数
+
+做题链接: [第八题](https://github.com/spaasteam/spaas-daily-practice/issues/10)
 ---
 
 
