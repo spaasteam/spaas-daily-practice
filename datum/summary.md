@@ -8,6 +8,7 @@
 * [`第六题 走迷宫`](#%E7%AC%AC%E5%85%AD%E9%A2%98%20%E8%B5%B0%E8%BF%B7%E5%AE%AB)
 * [`第七题 旋转数组`](#%E7%AC%AC%E4%B8%83%E9%A2%98%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%AE%97%E6%B3%95%E9%A2%98)
 * [`第八题 算法题之 [移动零]`](#%E7%AC%AC%E5%85%AB%E9%A2%98%20%E7%AE%97%E6%B3%95%E9%A2%98%E4%B9%8B%E3%80%8C%E7%A7%BB%E5%8A%A8%E9%9B%B6%E3%80%8D)
+* [`第九题 算法题之翻转数字`](#%E7%AC%AC%E4%B9%9D%E9%A2%98%20%E7%AE%97%E6%B3%95%E9%A2%98%E4%B9%8B%E7%BF%BB%E8%BD%AC%E6%95%B0%E5%AD%97)
 ---
 
 
@@ -138,11 +139,6 @@ LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk foo
 
 
 
-
-
-
-
-
 ### 第六题 走迷宫
 
 ```js
@@ -202,3 +198,10 @@ rotate(arr)  // [5, 4, 3, 2, 1]
 >尽量减少操作次数
 
 做题链接: [第八题](https://github.com/spaasteam/spaas-daily-practice/issues/10)
+
+
+### 第九题 算法题之翻转数字
+
+>用 JavaScript 写一个函数，输入 int 型，返回整数逆序后的字符串。如：输入整型 1234，返回字符串“4321”。要求必须使用>递归函数调用，不能用全局变量，输入函数必须只有一个参数传入，必须返回字符串。
+
+做题链接: [第 9 题](https://github.com/spaasteam/spaas-daily-practice/issues/11)
