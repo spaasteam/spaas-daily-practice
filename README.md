@@ -241,7 +241,7 @@ const arr = [1, 2, 3, 4, 5]
 rotate(arr)  // [5, 4, 3, 2, 1]
 ```
 
-做题连接: [第 8 题](https://github.com/spaasteam/spaas-daily-practice/issues/9)
+做题连接: [第 7 题](https://github.com/spaasteam/spaas-daily-practice/issues/9)
 
 
 ### 算法题之「移动零」
