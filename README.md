@@ -195,8 +195,6 @@ LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk foo
 
 </details>
 
-<details>
-<summary>详情</summary>
 
 做题链接: [第 5 题](https://github.com/spaasteam/spaas-daily-practice/issues/7)
 
@@ -228,6 +226,7 @@ console.log(mazePaths)
 ```
 
 做题链接: [第 6 题](https://github.com/spaasteam/spaas-daily-practice/issues/8)
+
 ---
 
 ### 旋转数组算法题
@@ -242,7 +241,7 @@ const arr = [1, 2, 3, 4, 5]
 rotate(arr)  // [5, 4, 3, 2, 1]
 ```
 
-做题连接: [第 7 题](https://github.com/spaasteam/spaas-daily-practice/issues/9)
+做题连接: [第 8 题](https://github.com/spaasteam/spaas-daily-practice/issues/9)
 
 
 ### 算法题之「移动零」
