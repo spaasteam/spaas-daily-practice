@@ -2,11 +2,17 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 算法题之翻转数字
+### 今日题目 下面代码中 a 在什么情况下会打印 1？
 
->用 JavaScript 写一个函数，输入 int 型，返回整数逆序后的字符串。如：输入整型 1234，返回字符串“4321”。要求必须使用>递归函数调用，不能用全局变量，输入函数必须只有一个参数传入，必须返回字符串。
+```js
+var a = ?;
+if(a == 1 && a == 2 && a == 3){
+ 	console.log(1);
+}
 
-做题链接: [第 9 题](https://github.com/spaasteam/spaas-daily-practice/issues/11)
+```
+
+做题链接: [第 10 题](https://github.com/spaasteam/spaas-daily-practice/issues/12)
 
 ## 历史题目
 
@@ -254,6 +260,14 @@ rotate(arr)  // [5, 4, 3, 2, 1]
 >尽量减少操作次数
 
 做题链接: [第八题](https://github.com/spaasteam/spaas-daily-practice/issues/10)
+
+
+### 算法题之翻转数字
+
+>用 JavaScript 写一个函数，输入 int 型，返回整数逆序后的字符串。如：输入整型 1234，返回字符串“4321”。要求必须使用>递归函数调用，不能用全局变量，输入函数必须只有一个参数传入，必须返回字符串。
+
+做题链接: [第 9 题](https://github.com/spaasteam/spaas-daily-practice/issues/11)
+
 ---
 
 
