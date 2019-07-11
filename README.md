@@ -195,8 +195,6 @@ LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk foo
 
 </details>
 
-<details>
-<summary>详情</summary>
 
 做题链接: [第 5 题](https://github.com/spaasteam/spaas-daily-practice/issues/7)
 
@@ -228,6 +226,7 @@ console.log(mazePaths)
 ```
 
 做题链接: [第 6 题](https://github.com/spaasteam/spaas-daily-practice/issues/8)
+
 ---
 
 ### 旋转数组算法题
@@ -259,7 +258,7 @@ rotate(arr)  // [5, 4, 3, 2, 1]
 >
 >尽量减少操作次数
 
-做题链接: [第八题](https://github.com/spaasteam/spaas-daily-practice/issues/10)
+做题链接: [第 8 题](https://github.com/spaasteam/spaas-daily-practice/issues/10)
 
 
 ### 算法题之翻转数字
