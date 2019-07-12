@@ -2,17 +2,13 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 下面代码中 a 在什么情况下会打印 1？
+### 今日题目 两个数组合并成一个数组
 
-```js
-var a = ?;
-if(a == 1 && a == 2 && a == 3){
- 	console.log(1);
-}
+请把两个数组 ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'D1', 'D2'] 和 ['A', 'B', 'C', 'D']，合并为 ['A1', 'A2', 'A', 'B1', 'B2', 'B', 'C1', 'C2', 'C', 'D1', 'D2', 'D']。
 
-```
+做题链接: [第 11 题](https://github.com/spaasteam/spaas-daily-practice/issues/13)
 
-做题链接: [第 10 题](https://github.com/spaasteam/spaas-daily-practice/issues/12)
+
 
 ## 历史题目
 
@@ -266,6 +262,19 @@ rotate(arr)  // [5, 4, 3, 2, 1]
 >用 JavaScript 写一个函数，输入 int 型，返回整数逆序后的字符串。如：输入整型 1234，返回字符串“4321”。要求必须使用>递归函数调用，不能用全局变量，输入函数必须只有一个参数传入，必须返回字符串。
 
 做题链接: [第 9 题](https://github.com/spaasteam/spaas-daily-practice/issues/11)
+
+
+### 下面代码中 a 在什么情况下会打印 1？
+
+```js
+var a = ?;
+if(a == 1 && a == 2 && a == 3){
+ 	console.log(1);
+}
+
+```
+
+做题链接: [第 10 题](https://github.com/spaasteam/spaas-daily-practice/issues/12)
 
 ---
 
