@@ -2,11 +2,17 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 两个数组合并成一个数组
+### 今日题目 查找一个数
 
-请把两个数组 ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'D1', 'D2'] 和 ['A', 'B', 'C', 'D']，合并为 ['A1', 'A2', 'A', 'B1', 'B2', 'B', 'C1', 'C2', 'C', 'D1', 'D2', 'D']。
+> 给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1 [来源：力扣（LeetCode）]
 
-做题链接: [第 11 题](https://github.com/spaasteam/spaas-daily-practice/issues/13)
+提示
+- 你可以假设 nums 中的所有元素是不重复的。
+- n 将在 [1, 10000]之间。
+- nums 的每个元素都将在 [-9999, 9999]之间。
+- 可尝试二分查找
+
+做题链接: [第 12 题](https://github.com/spaasteam/spaas-daily-practice/issues/14)
 
 
 
@@ -275,6 +281,13 @@ if(a == 1 && a == 2 && a == 3){
 ```
 
 做题链接: [第 10 题](https://github.com/spaasteam/spaas-daily-practice/issues/12)
+
+
+### 两个数组合并成一个数组
+
+请把两个数组 ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'D1', 'D2'] 和 ['A', 'B', 'C', 'D']，合并为 ['A1', 'A2', 'A', 'B1', 'B2', 'B', 'C1', 'C2', 'C', 'D1', 'D2', 'D']。
+
+做题链接: [第 11 题](https://github.com/spaasteam/spaas-daily-practice/issues/13)
 
 ---
 
