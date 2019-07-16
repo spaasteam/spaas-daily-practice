@@ -12,8 +12,7 @@
 * [`第十题 下面代码中 a 在什么情况下会打印 1 ?`](#%E7%AC%AC%E5%8D%81%E9%A2%98%20%E4%B8%8B%E9%9D%A2%E4%BB%A3%E7%A0%81%E4%B8%AD%20a%20%E5%9C%A8%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E4%BC%9A%E6%89%93%E5%8D%B0%201%20?)
 * [`第 11 题 两个数组合并成一个数组`](#%E7%AC%AC%2011%20%E9%A2%98%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E5%90%88%E5%B9%B6%E6%88%90%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84)
 * [`第 12 题 查找一个数`](#%E7%AC%AC%2012%20%E9%A2%98%20%E6%9F%A5%E6%89%BE%E4%B8%80%E4%B8%AA%E6%95%B0)
-
-
+* [`第 13 题 学习数据结构-栈，写一个函数match(str)，判断一个字符串中的小括号是否匹配。`](%E7%AC%AC%2013%20%E9%A2%98%20%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%A0%88%EF%BC%8C%E5%86%99%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0match(str)%EF%BC%8C%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%B0%8F%E6%8B%AC%E5%8F%B7%E6%98%AF%E5%90%A6%E5%8C%B9%E9%85%8D%E3%80%82)
 
 ---
 
@@ -244,3 +243,14 @@ if(a == 1 && a == 2 && a == 3){
 - 可尝试二分查找
 
 做题链接: [第 12 题](https://github.com/spaasteam/spaas-daily-practice/issues/14)
+
+
+### 第 13 题 学习数据结构-栈，写一个函数match(str)，判断一个字符串中的小括号是否匹配。
+
+```js
+match('abc()def') // true
+match('(1+2()') // false
+match('(1+2+3+5*2*(3+7))') // true
+```
+
+做题链接: [第 13 题](https://github.com/spaasteam/spaas-daily-practice/issues/15)
