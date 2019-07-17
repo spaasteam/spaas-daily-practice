@@ -2,15 +2,9 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 学习数据结构-栈，写一个函数match(str)，判断一个字符串中的小括号是否匹配。
+### 今日题目 [css] 圣杯布局和双飞翼布局的理解和区别，并用代码实现
 
-```js
-match('abc()def') // true
-match('(1+2()') // false
-match('(1+2+3+5*2*(3+7))') // true
-```
-
-做题链接: [第 13 题](https://github.com/spaasteam/spaas-daily-practice/issues/15)
+做题连接: [第 14 题](https://github.com/spaasteam/spaas-daily-practice/issues/16)
 
 ## 历史题目
 
@@ -300,6 +294,17 @@ if(a == 1 && a == 2 && a == 3){
 
 做题链接: [第 12 题](https://github.com/spaasteam/spaas-daily-practice/issues/14)
 
+
+
+### 学习数据结构-栈，写一个函数match(str)，判断一个字符串中的小括号是否匹配。
+
+```js
+match('abc()def') // true
+match('(1+2()') // false
+match('(1+2+3+5*2*(3+7))') // true
+```
+
+做题链接: [第 13 题](https://github.com/spaasteam/spaas-daily-practice/issues/15)
 ---
 
 
