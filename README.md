@@ -2,9 +2,10 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 [css] 圣杯布局和双飞翼布局的理解和区别，并用代码实现
+### 今日题目 请实现一个数组乱序方法
 
-做题连接: [第 14 题](https://github.com/spaasteam/spaas-daily-practice/issues/16)
+做题链接: [第 15 题](https://github.com/spaasteam/spaas-daily-practice/issues/17)
+
 
 ## 历史题目
 
@@ -154,158 +155,6 @@ let result = [
 </details>
 
 做题链接: [第 4 题](https://github.com/spaasteam/spaas-daily-practice/issues/6)
-
-
-### 要求设计 LazyMan 类，实现以下功能
-
-<details>
-<summary>详情</summary>
-
-```js
-LazyMan('Tony');
-// Hi I am Tony
-
-LazyMan('Tony').sleep(10).eat('lunch');
-// Hi I am Tony
-// 等待了10秒...
-// I am eating lunch
-
-LazyMan('Tony').eat('lunch').sleep(10).eat('dinner');
-// Hi I am Tony
-// I am eating lunch
-// 等待了10秒...
-// I am eating diner
-
-LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk food');
-// Hi I am Tony
-// 等待了5秒...
-// I am eating lunch
-// I am eating dinner
-// 等待了10秒...
-// I am eating junk food
-```
-
-</details>
-
-
-做题链接: [第 5 题](https://github.com/spaasteam/spaas-daily-practice/issues/7)
-
-
-### 走迷宫
-
-```js
-/**
- * @title 迷宫
- * @description
- * 1. 实现一个函数 getMazePath(迷宫矩阵，开始位置, 结束位置)，
- *     获得从迷宫（二维数组）开始位置到结束位置的所有坐标，按先后顺序排序
- * 2. 1为不可走，0为可走
- * 3. 广度优先算法
- */
-
-// 迷宫
-const maze = [
-  [1, 1, 1, 1, 1],
-  [1, 1, 0, 0, 0],
-  [1, 0, 0, 1, 1],
-  [0, 0, 1, 0, 1],
-  [1, 0, 0, 0, 1],
-  [1, 1, 1, 1, 1],
-]
-const mazePaths = getMazePath(maze, [3, 0], [1, 4])
-console.log(mazePaths)
-// output: [ [3,0], [3,1], [2,1], [2,2], [1,2], [1,3], [1,4]]
-```
-
-做题链接: [第 6 题](https://github.com/spaasteam/spaas-daily-practice/issues/8)
-
----
-
-### 旋转数组算法题
-
-```js
-// 编写一个函数 rotate 达到旋转数组的效果
-
-function rotate(A) {}
-
-const arr = [1, 2, 3, 4, 5]
-
-rotate(arr)  // [5, 4, 3, 2, 1]
-```
-
-做题连接: [第 7 题](https://github.com/spaasteam/spaas-daily-practice/issues/9)
-
-
-### 算法题之「移动零」
-
->给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
->
->示例:
->
->输入: [0,1,0,3,12]
->输出: [1,3,12,0,0]
->说明:
->
->必须在原数组上操作，不能拷贝额外的数组。
->
->尽量减少操作次数
-
-做题链接: [第 8 题](https://github.com/spaasteam/spaas-daily-practice/issues/10)
-
-
-### 算法题之翻转数字
-
->用 JavaScript 写一个函数，输入 int 型，返回整数逆序后的字符串。如：输入整型 1234，返回字符串“4321”。要求必须使用>递归函数调用，不能用全局变量，输入函数必须只有一个参数传入，必须返回字符串。
-
-做题链接: [第 9 题](https://github.com/spaasteam/spaas-daily-practice/issues/11)
-
-
-### 下面代码中 a 在什么情况下会打印 1？
-
-```js
-var a = ?;
-if(a == 1 && a == 2 && a == 3){
- 	console.log(1);
-}
-
-```
-
-做题链接: [第 10 题](https://github.com/spaasteam/spaas-daily-practice/issues/12)
-
-
-### 两个数组合并成一个数组
-
-请把两个数组 ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'D1', 'D2'] 和 ['A', 'B', 'C', 'D']，合并为 ['A1', 'A2', 'A', 'B1', 'B2', 'B', 'C1', 'C2', 'C', 'D1', 'D2', 'D']。
-
-做题链接: [第 11 题](https://github.com/spaasteam/spaas-daily-practice/issues/13)
-
-
-
-
-### 查找一个数
-
-> 给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1 [来源：力扣（LeetCode）]
-
-提示
-- 你可以假设 nums 中的所有元素是不重复的。
-- n 将在 [1, 10000]之间。
-- nums 的每个元素都将在 [-9999, 9999]之间。
-- 可尝试二分查找
-
-做题链接: [第 12 题](https://github.com/spaasteam/spaas-daily-practice/issues/14)
-
-
-
-### 学习数据结构-栈，写一个函数match(str)，判断一个字符串中的小括号是否匹配。
-
-```js
-match('abc()def') // true
-match('(1+2()') // false
-match('(1+2+3+5*2*(3+7))') // true
-```
-
-做题链接: [第 13 题](https://github.com/spaasteam/spaas-daily-practice/issues/15)
----
 
 
 ### 更多历史题目请查看 datum/summary.md 查看
