@@ -2,9 +2,10 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 请实现一个数组乱序方法
+### 今日题目 设计链表
 
-做题链接: [第 15 题](https://github.com/spaasteam/spaas-daily-practice/issues/17)
+做题链接: [第 1 题](https://github.com/spaasteam/spaas-daily-practice/issues/18)
+
 
 
 ## 历史题目
