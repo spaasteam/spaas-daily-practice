@@ -16,7 +16,7 @@
 * [`第 14 题 [css] 圣杯布局和双飞翼布局的理解和区别，并用代码实现`](#%E7%AC%AC%2014%20%E9%A2%98%20%5Bcss%5D%20%E5%9C%A3%E6%9D%AF%E5%B8%83%E5%B1%80%E5%92%8C%E5%8F%8C%E9%A3%9E%E7%BF%BC%E5%B8%83%E5%B1%80%E7%9A%84%E7%90%86%E8%A7%A3%E5%92%8C%E5%8C%BA%E5%88%AB%EF%BC%8C%E5%B9%B6%E7%94%A8%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0)
 * [`第 15 题 请实现一个数组乱序方法`](#%E7%AC%AC%2015%20%E9%A2%98%20%E8%AF%B7%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84%E4%B9%B1%E5%BA%8F%E6%96%B9%E6%B3%95)
 * [`第 16 题 设计链表`](#%E7%AC%AC%2016%20%E9%A2%98%20%E8%AE%BE%E8%AE%A1%E9%93%BE%E8%A1%A8)
- 
+* [`第 17 题 编程题`](#%E7%AC%AC%2017%20%E9%A2%98%20%E7%BC%96%E7%A8%8B%E9%A2%98)
 
 ---
 
@@ -275,3 +275,16 @@ match('(1+2+3+5*2*(3+7))') // true
 ### 第 16 题 设计链表
 
 做题链接: [第 16 题](https://github.com/spaasteam/spaas-daily-practice/issues/18)
+
+
+### 第 17 题 编程题
+
+```js
+// input 
+// '1, 2, 3, 5, 7, 8, 10'
+
+// output
+// '1~3, 5, 7~8, 10'
+```
+
+做题连接: [第 17 题](https://github.com/spaasteam/spaas-daily-practice/issues/19)
