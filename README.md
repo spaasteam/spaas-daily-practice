@@ -2,17 +2,33 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 编程题
+### 今日题目 编程题 转换 entry
 
 ```js
-// input 
-// '1, 2, 3, 5, 7, 8, 10'
+var entry = {
+  a: {
+    b: {
+      c: {
+        d: 'abcdd'
+      }
+    },
+    d: {
+      xx: 'adxx'
+    },
+    e: 'ae'
+  }
+}
 
-// output
-// '1~3, 5, 7~8, 10'
+
+// 要求转换如下对象
+var output = {
+  'a.b.c.dd': 'abcdd',
+  'a.b.xx': 'adxx',
+  'a.e': 'ae',
+}
 ```
 
-做题连接: [第 17 题](https://github.com/spaasteam/spaas-daily-practice/issues/19)
+做题连接: [第 18 题](https://github.com/spaasteam/spaas-daily-practice/issues/20)
 
 
 
@@ -170,3 +186,18 @@ let result = [
 
 
 ### 对 markdown 语法不太熟悉的小伙伴可以查看教程 [*传送门*](https://github.com/younghz/Markdown)
+
+### 题目出自哪里
+
+工作日的每天，都会更新一道题目，题目类型不限于算法，数据结构等。
+
+出题的人可以从以下的链接中找出一道你觉得合适的题目上传到仓库让团队与团队其他小伙伴进行互动解答。
+
+觉得每天一道题不够做也可以从下面的仓库链接多做多练习。
+
+本仓库题目也是出自于这些仓库与连接直中。
+
+- https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md
+- https://github.com/haizlin/fe-interview
+- https://www.codewars.com
+- https://leetcode.com/
