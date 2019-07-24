@@ -18,6 +18,7 @@
 * [`第 16 题 设计链表`](#%E7%AC%AC%2016%20%E9%A2%98%20%E8%AE%BE%E8%AE%A1%E9%93%BE%E8%A1%A8)
 * [`第 17 题 编程题`](#%E7%AC%AC%2017%20%E9%A2%98%20%E7%BC%96%E7%A8%8B%E9%A2%98)
 * [`第 18 题 编程题 转换 entry`](#%E7%AC%AC%2018%20%E9%A2%98%20%E7%BC%96%E7%A8%8B%E9%A2%98%20%E8%BD%AC%E6%8D%A2%20entry)
+* [`第 19 题: 编程题 转换对象`](#%E7%AC%AC%2019%20%E9%A2%98:%20%E7%BC%96%E7%A8%8B%E9%A2%98%20%E8%BD%AC%E6%8D%A2%E5%AF%B9%E8%B1%A1)
 
 ---
 
@@ -319,3 +320,31 @@ var output = {
 ```
 
 做题连接: [第 18 题](https://github.com/spaasteam/spaas-daily-practice/issues/20)
+
+
+### 第 19 题: 编程题 转换对象
+
+```js
+var entry = {
+  'a.b.c.dd': 'abcdd',
+  'a.b.xx': 'adxx',
+  'a.e': 'ae',
+}
+
+// 要求转换如下对象
+var output = {
+  a: {
+    b: {
+      c: {
+        d: 'abcdd'
+      }
+    },
+    d: {
+      xx: 'adxx'
+    },
+    e: 'ae'
+  }
+}
+```
+
+做题连接: [第 19 题](https://github.com/spaasteam/spaas-daily-practice/issues/21)

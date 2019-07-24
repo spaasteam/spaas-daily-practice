@@ -2,10 +2,17 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 编程题 转换 entry
+### 今日题目 编程题 转换对象
 
 ```js
 var entry = {
+  'a.b.c.dd': 'abcdd',
+  'a.b.xx': 'adxx',
+  'a.e': 'ae',
+}
+
+// 要求转换如下对象
+var output = {
   a: {
     b: {
       c: {
@@ -18,17 +25,9 @@ var entry = {
     e: 'ae'
   }
 }
-
-
-// 要求转换如下对象
-var output = {
-  'a.b.c.dd': 'abcdd',
-  'a.b.xx': 'adxx',
-  'a.e': 'ae',
-}
 ```
 
-做题连接: [第 18 题](https://github.com/spaasteam/spaas-daily-practice/issues/20)
+做题连接: [第 19 题](https://github.com/spaasteam/spaas-daily-practice/issues/21)
 
 
 
