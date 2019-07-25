@@ -2,32 +2,27 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 编程题 转换对象
+### 今日题目 简单的字符串扩展
+
+> 接收一个字符串，如果字符串中有数字，则重复数字后面的字符 n 次（截至到遇到下个字符之前的部分）。
 
 ```js
-var entry = {
-  'a.b.c.dd': 'abcdd',
-  'a.b.xx': 'adxx',
-  'a.e': 'ae',
-}
+stringExpansion('3D2a5d2f') === 'DDDaadddddff'
 
-// 要求转换如下对象
-var output = {
-  a: {
-    b: {
-      c: {
-        d: 'abcdd'
-      }
-    },
-    d: {
-      xx: 'adxx'
-    },
-    e: 'ae'
-  }
-}
+stringExpansion('3abc') === 'aaabbbccc'      // correct
+stringExpansion('3abc') !== 'aaabc'          // wrong
+stringExpansion('3abc') !== 'abcabcabc'      // wrong
+
+// 如果有两个连续的数字字符，则忽略第一个。
+stringExpansion('3d332f2a') === 'dddffaa'
+
+
+// 空格和无数字则直接返回即可
+
 ```
 
-做题连接: [第 19 题](https://github.com/spaasteam/spaas-daily-practice/issues/21)
+
+做题连接: [第 20 题](https://github.com/spaasteam/spaas-daily-practice/issues/22)
 
 
 

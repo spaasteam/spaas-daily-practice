@@ -19,6 +19,7 @@
 * [`第 17 题 编程题`](#%E7%AC%AC%2017%20%E9%A2%98%20%E7%BC%96%E7%A8%8B%E9%A2%98)
 * [`第 18 题 编程题 转换 entry`](#%E7%AC%AC%2018%20%E9%A2%98%20%E7%BC%96%E7%A8%8B%E9%A2%98%20%E8%BD%AC%E6%8D%A2%20entry)
 * [`第 19 题: 编程题 转换对象`](#%E7%AC%AC%2019%20%E9%A2%98:%20%E7%BC%96%E7%A8%8B%E9%A2%98%20%E8%BD%AC%E6%8D%A2%E5%AF%B9%E8%B1%A1)
+- [`第 20 题 简单简单的字符串扩展`](#%E7%AC%AC%2020%20%E9%A2%98%20%E7%AE%80%E5%8D%95%E7%AE%80%E5%8D%95%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%89%A9%E5%B1%95)
 
 ---
 
@@ -348,3 +349,26 @@ var output = {
 ```
 
 做题连接: [第 19 题](https://github.com/spaasteam/spaas-daily-practice/issues/21)
+
+### 第 20 题 简单的字符串扩展
+
+> 接收一个字符串，如果字符串中有数字，则重复数字后面的字符 n 次（截至到遇到下个字符之前的部分）。
+
+```js
+
+stringExpansion('3D2a5d2f') === 'DDDaadddddff'
+
+stringExpansion('3abc') === 'aaabbbccc'      // correct
+stringExpansion('3abc') !== 'aaabc'          // wrong
+stringExpansion('3abc') !== 'abcabcabc'      // wrong
+
+// 如果有两个连续的数字字符，则忽略第一个。
+stringExpansion('3d332f2a') === 'dddffaa'
+
+
+// 空格和无数字则直接返回即可
+
+```
+
+
+做题连接: [第 20 题](https://github.com/spaasteam/spaas-daily-practice/issues/22)
