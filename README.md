@@ -2,23 +2,20 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 按位排序
+### 今日题目 创建一个 customConcat() 函数，与 `Array.prototype.concat()` 功能一样
 
 ```js
-例如给定数组 [7, 6, 15, 8]，编写一个 sortBybit() 将数组进行排序（注：请在原来数组上操作，不要创建新的数组）
+// 语法
+var new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])
 
-- 7 有3位 (000...0111)
-- 6 有2位 (000...0011)
-- 15有4位 (000...1111)
-- 8 有1位 (000...1000)
 
-因此排序的顺序将是 [8, 6, 7, 15]
+Array.prototype.customConcat = function(){
 
-如果2个数字有相同的位数，请比较它们的实际值！
+  return this;
+}
 ```
 
-
-做题连接: [第 21 题](https://github.com/spaasteam/spaas-daily-practice/issues/23)
+做题连接: [第 21 题](https://github.com/spaasteam/spaas-daily-practice/issues/24)
 
 
 

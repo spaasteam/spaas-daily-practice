@@ -21,6 +21,7 @@
 * [`第 19 题: 编程题 转换对象`](#%E7%AC%AC%2019%20%E9%A2%98:%20%E7%BC%96%E7%A8%8B%E9%A2%98%20%E8%BD%AC%E6%8D%A2%E5%AF%B9%E8%B1%A1)
 * [`第 20 题 简单简单的字符串扩展`](#%E7%AC%AC%2020%20%E9%A2%98%20%E7%AE%80%E5%8D%95%E7%AE%80%E5%8D%95%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%89%A9%E5%B1%95)
 * [`第 21 题 按位排序`](#%E7%AC%AC%2021%20%E9%A2%98%20%E6%8C%89%E4%BD%8D%E6%8E%92%E5%BA%8F)
+* [`第 22 题 创建一个 customConcat() 函数，与 `Array.prototype.concat()` 功能一样`](#%E7%AC%AC%2022%20%E9%A2%98%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20customConcat()%20%E5%87%BD%E6%95%B0%EF%BC%8C%E4%B8%8E%20%60Array.prototype.concat()%60%20%E5%8A%9F%E8%83%BD%E4%B8%80%E6%A0%B7)
 
 ---
 
@@ -392,3 +393,19 @@ stringExpansion('3d332f2a') === 'dddffaa'
 
 
 做题连接: [第 21 题](https://github.com/spaasteam/spaas-daily-practice/issues/23)
+
+
+### 第 22 题 创建一个 customConcat() 函数，与 `Array.prototype.concat()` 功能一样
+
+```js
+// 语法
+var new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])
+
+
+Array.prototype.customConcat = function(){
+
+  return this;
+}
+```
+
+做题连接: [第 22 题](https://github.com/spaasteam/spaas-daily-practice/issues/24)
