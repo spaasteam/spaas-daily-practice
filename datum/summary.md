@@ -23,7 +23,7 @@
 * [`第 21 题 按位排序`](#%E7%AC%AC%2021%20%E9%A2%98%20%E6%8C%89%E4%BD%8D%E6%8E%92%E5%BA%8F)
 * [`第 22 题 创建一个 customConcat() 函数，与 `Array.prototype.concat()` 功能一样`](#%E7%AC%AC%2022%20%E9%A2%98%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20customConcat()%20%E5%87%BD%E6%95%B0%EF%BC%8C%E4%B8%8E%20%60Array.prototype.concat()%60%20%E5%8A%9F%E8%83%BD%E4%B8%80%E6%A0%B7)
 * [`第 23 题: 电话号码格式化`](#%E7%AC%AC%2023%20%E9%A2%98:%20%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96)
-
+* [`第 24 题: 如果元素出现次数超过 n 次，则删除该元素`](#%E7%AC%AC%2024%20%E9%A2%98:%20%E5%A6%82%E6%9E%9C%E5%85%83%E7%B4%A0%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E8%B6%85%E8%BF%87%20n%20%E6%AC%A1%EF%BC%8C%E5%88%99%E5%88%A0%E9%99%A4%E8%AF%A5%E5%85%83%E7%B4%A0)
 
 ---
 
@@ -424,3 +424,15 @@ createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 ```
 
 做题连接: [第 23 题](https://github.com/spaasteam/spaas-daily-practice/issues/25)
+
+
+### 第 24 题: 如果元素出现次数超过 n 次，则删除该元素
+
+```js
+// example
+deleteNth([1, 1, 1, 1], 2); // return [1,1]
+
+deleteNth([20, 37, 20, 21], 1); // return [20,37,21]
+```
+
+做题连接: [第 24 题](https://github.com/spaasteam/spaas-daily-practice/issues/26)

@@ -2,18 +2,16 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 电话号码格式化
-
-```js
-tips: 接收到的数组是将永远是一个十位数的数组
+### 今日题目 如果元素出现次数超过 n 次，则删除该元素
 
 ```js
 // example
+deleteNth([1, 1, 1, 1], 2); // return [1,1]
 
-createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
+deleteNth([20, 37, 20, 21], 1); // return [20,37,21]
 ```
 
-做题连接: [第 23 题](https://github.com/spaasteam/spaas-daily-practice/issues/25)
+做题连接: [第 24 题](https://github.com/spaasteam/spaas-daily-practice/issues/26)
 
 
 
