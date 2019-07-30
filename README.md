@@ -2,20 +2,18 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 创建一个 customConcat() 函数，与 `Array.prototype.concat()` 功能一样
+### 今日题目 电话号码格式化
 
 ```js
-// 语法
-var new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])
+tips: 接收到的数组是将永远是一个十位数的数组
 
+```js
+// example
 
-Array.prototype.customConcat = function(){
-
-  return this;
-}
+createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 ```
 
-做题连接: [第 21 题](https://github.com/spaasteam/spaas-daily-practice/issues/24)
+做题连接: [第 23 题](https://github.com/spaasteam/spaas-daily-practice/issues/25)
 
 
 

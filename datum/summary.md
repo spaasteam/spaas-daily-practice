@@ -22,6 +22,8 @@
 * [`第 20 题 简单简单的字符串扩展`](#%E7%AC%AC%2020%20%E9%A2%98%20%E7%AE%80%E5%8D%95%E7%AE%80%E5%8D%95%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%89%A9%E5%B1%95)
 * [`第 21 题 按位排序`](#%E7%AC%AC%2021%20%E9%A2%98%20%E6%8C%89%E4%BD%8D%E6%8E%92%E5%BA%8F)
 * [`第 22 题 创建一个 customConcat() 函数，与 `Array.prototype.concat()` 功能一样`](#%E7%AC%AC%2022%20%E9%A2%98%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20customConcat()%20%E5%87%BD%E6%95%B0%EF%BC%8C%E4%B8%8E%20%60Array.prototype.concat()%60%20%E5%8A%9F%E8%83%BD%E4%B8%80%E6%A0%B7)
+* [`第 23 题: 电话号码格式化`](#%E7%AC%AC%2023%20%E9%A2%98:%20%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96)
+
 
 ---
 
@@ -409,3 +411,16 @@ Array.prototype.customConcat = function(){
 ```
 
 做题连接: [第 22 题](https://github.com/spaasteam/spaas-daily-practice/issues/24)
+
+### 第 23 题: 电话号码格式化
+
+```js
+tips: 接收到的数组是将永远是一个十位数的数组
+
+```js
+// example
+
+createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
+```
+
+做题连接: [第 23 题](https://github.com/spaasteam/spaas-daily-practice/issues/25)
