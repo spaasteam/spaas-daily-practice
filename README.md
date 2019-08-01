@@ -2,16 +2,23 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 如果元素出现次数超过 n 次，则删除该元素
+### 今日题目 编写一个验证密码函数
+
+规则如下
+1. 最少6位，最大20位。
+2. 只接受数字和字母。
+3. 必须包含有数字和字母。
 
 ```js
-// example
-deleteNth([1, 1, 1, 1], 2); // return [1,1]
-
-deleteNth([20, 37, 20, 21], 1); // return [20,37,21]
+/**
+ * return Boolean
+ */
+function validPass(password) {
+  return Boolean
+}
 ```
 
-做题连接: [第 24 题](https://github.com/spaasteam/spaas-daily-practice/issues/26)
+做题连接: [第 25 题](https://github.com/spaasteam/spaas-daily-practice/issues/27)
 
 
 
