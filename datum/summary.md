@@ -25,6 +25,8 @@
 * [`第 23 题: 电话号码格式化`](#%E7%AC%AC%2023%20%E9%A2%98:%20%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96)
 * [`第 24 题: 如果元素出现次数超过 n 次，则删除该元素`](#%E7%AC%AC%2024%20%E9%A2%98:%20%E5%A6%82%E6%9E%9C%E5%85%83%E7%B4%A0%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E8%B6%85%E8%BF%87%20n%20%E6%AC%A1%EF%BC%8C%E5%88%99%E5%88%A0%E9%99%A4%E8%AF%A5%E5%85%83%E7%B4%A0)
 * [`第 25 题: 编写一个验证密码函数`](#%E7%AC%AC%2025%20%E9%A2%98:%20%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E9%AA%8C%E8%AF%81%E5%AF%86%E7%A0%81%E5%87%BD%E6%95%B0)
+* [`第 26 题: 深度计数`](#%E7%AC%AC%2026%20%E9%A2%98:%20%E6%B7%B1%E5%BA%A6%E8%AE%A1%E6%95%B0)
+
 
 ---
 
@@ -457,3 +459,24 @@ function validPass(password) {
 ```
 
 做题连接: [第 25 题](https://github.com/spaasteam/spaas-daily-practice/issues/27)
+
+### 第 26 题: 深度计数
+
+你的任务是创建一个 `deepeCount` 函数，去计算一个深度数组中一共有多小个元素，包括所有的内嵌数组~~
+
+ps: 额外要求通过深度优先，广度优先两种方式去实现此方法
+
+```js
+example
+deepCount([1, 2, 3]);  
+//>>>>> 3
+deepCount(["x", "y", ["z"]]);  
+//>>>>> 4
+deepCount([1, 2, [3, 4, [5]]]);  
+//>>>>> 7
+
+deepCount([[[[[[[[[]]]]]]]]])
+//>>>>> 8
+```
+
+做题连接: [第 26 题](https://github.com/spaasteam/spaas-daily-practice/issues/28)

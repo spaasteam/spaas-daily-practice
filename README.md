@@ -2,23 +2,26 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 编写一个验证密码函数
+### 今日题目 深度计数
 
-规则如下
-1. 最少6位，最大20位。
-2. 只接受数字和字母。
-3. 必须包含有数字和字母。
+你的任务是创建一个 `deepeCount` 函数，去计算一个深度数组中一共有多小个元素，包括所有的内嵌数组~~
+
+ps: 额外要求通过深度优先，广度优先两种方式去实现此方法
 
 ```js
-/**
- * return Boolean
- */
-function validPass(password) {
-  return Boolean
-}
+example
+deepCount([1, 2, 3]);  
+//>>>>> 3
+deepCount(["x", "y", ["z"]]);  
+//>>>>> 4
+deepCount([1, 2, [3, 4, [5]]]);  
+//>>>>> 7
+
+deepCount([[[[[[[[[]]]]]]]]])
+//>>>>> 8
 ```
 
-做题连接: [第 25 题](https://github.com/spaasteam/spaas-daily-practice/issues/27)
+做题连接: [第 26 题](https://github.com/spaasteam/spaas-daily-practice/issues/28)
 
 
 
