@@ -26,6 +26,7 @@
 * [`第 24 题: 如果元素出现次数超过 n 次，则删除该元素`](#%E7%AC%AC%2024%20%E9%A2%98:%20%E5%A6%82%E6%9E%9C%E5%85%83%E7%B4%A0%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E8%B6%85%E8%BF%87%20n%20%E6%AC%A1%EF%BC%8C%E5%88%99%E5%88%A0%E9%99%A4%E8%AF%A5%E5%85%83%E7%B4%A0)
 * [`第 25 题: 编写一个验证密码函数`](#%E7%AC%AC%2025%20%E9%A2%98:%20%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E9%AA%8C%E8%AF%81%E5%AF%86%E7%A0%81%E5%87%BD%E6%95%B0)
 * [`第 26 题: 深度计数`](#%E7%AC%AC%2026%20%E9%A2%98:%20%E6%B7%B1%E5%BA%A6%E8%AE%A1%E6%95%B0)
+* [`第 27 题: 实现一个 once 包装函数`](#%E7%AC%AC%2027%20%E9%A2%98:%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%20once%20%E5%8C%85%E8%A3%85%E5%87%BD%E6%95%B0)
 
 
 ---
@@ -480,3 +481,26 @@ deepCount([[[[[[[[[]]]]]]]]])
 ```
 
 做题连接: [第 26 题](https://github.com/spaasteam/spaas-daily-practice/issues/28)
+
+### 第 27 题: 实现一个 once 包装函数
+
+实现一个让指定函数只能被执行一次的包装函数
+
+```js
+const logOnce = once(console.log)
+logOnce("foo") // -> "foo"
+logOnce("bar") // -> no effect
+```
+
+```js
+function once(fn) {
+  let called = false;
+
+  return function() {
+    if (called) return;
+
+    called = true;
+    return fn.apply(this, arguments);
+  };
+}
+```

@@ -2,26 +2,30 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 深度计数
+### 今日题目 实现一个 once 包装函数
 
-你的任务是创建一个 `deepeCount` 函数，去计算一个深度数组中一共有多小个元素，包括所有的内嵌数组~~
-
-ps: 额外要求通过深度优先，广度优先两种方式去实现此方法
+实现一个让指定函数只能被执行一次的包装函数
 
 ```js
-example
-deepCount([1, 2, 3]);  
-//>>>>> 3
-deepCount(["x", "y", ["z"]]);  
-//>>>>> 4
-deepCount([1, 2, [3, 4, [5]]]);  
-//>>>>> 7
-
-deepCount([[[[[[[[[]]]]]]]]])
-//>>>>> 8
+const logOnce = once(console.log)
+logOnce("foo") // -> "foo"
+logOnce("bar") // -> no effect
 ```
 
-做题连接: [第 26 题](https://github.com/spaasteam/spaas-daily-practice/issues/28)
+```js
+function once(fn) {
+  let called = false;
+
+  return function() {
+    if (called) return;
+
+    called = true;
+    return fn.apply(this, arguments);
+  };
+}
+```
+
+做题连接: [第 27 题](https://github.com/spaasteam/spaas-daily-practice/issues/29)
 
 
 
