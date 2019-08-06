@@ -27,6 +27,7 @@
 * [`第 25 题: 编写一个验证密码函数`](#%E7%AC%AC%2025%20%E9%A2%98:%20%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E9%AA%8C%E8%AF%81%E5%AF%86%E7%A0%81%E5%87%BD%E6%95%B0)
 * [`第 26 题: 深度计数`](#%E7%AC%AC%2026%20%E9%A2%98:%20%E6%B7%B1%E5%BA%A6%E8%AE%A1%E6%95%B0)
 * [`第 27 题: 实现一个 once 包装函数`](#%E7%AC%AC%2027%20%E9%A2%98:%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%20once%20%E5%8C%85%E8%A3%85%E5%87%BD%E6%95%B0)
+* [`第 28 题: 匹配URL中的域名`](#%E7%AC%AC%2028%20%E9%A2%98:%20%E5%8C%B9%E9%85%8DURL%E4%B8%AD%E7%9A%84%E5%9F%9F%E5%90%8D)
 
 
 ---
@@ -504,3 +505,16 @@ function once(fn) {
   };
 }
 ```
+
+### 第 28 题: 匹配URL中的域名
+
+写一个函数，接受一个类型为 sring 的 url，解析出其中的域名并返回。
+```js
+domainName("http://github.com/carbonfive/raygun") == "github" 
+domainName("http://www.zombie-bites.com") == "zombie-bites"
+domainName("https://www.cnet.com") == "cnet"
+domainName("www.xakep.ru") == "xakep"
+domainName("http://google.co.jp") == "google"
+```
+
+做题连接: [第 28 题](https://github.com/spaasteam/spaas-daily-practice/issues/30)

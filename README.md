@@ -2,30 +2,18 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 实现一个 once 包装函数
+### 今日题目 匹配URL中的域名
 
-实现一个让指定函数只能被执行一次的包装函数
-
+写一个函数，接受一个类型为 sring 的 url，解析出其中的域名并返回。
 ```js
-const logOnce = once(console.log)
-logOnce("foo") // -> "foo"
-logOnce("bar") // -> no effect
+domainName("http://github.com/carbonfive/raygun") == "github" 
+domainName("http://www.zombie-bites.com") == "zombie-bites"
+domainName("https://www.cnet.com") == "cnet"
+domainName("www.xakep.ru") == "xakep"
+domainName("http://google.co.jp") == "google"
 ```
 
-```js
-function once(fn) {
-  let called = false;
-
-  return function() {
-    if (called) return;
-
-    called = true;
-    return fn.apply(this, arguments);
-  };
-}
-```
-
-做题连接: [第 27 题](https://github.com/spaasteam/spaas-daily-practice/issues/29)
+做题连接: [第 28 题](https://github.com/spaasteam/spaas-daily-practice/issues/30)
 
 
 
