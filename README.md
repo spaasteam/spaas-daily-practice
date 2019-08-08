@@ -2,18 +2,23 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 匹配URL中的域名
+### 今日题目 pipe
 
-写一个函数，接受一个类型为 sring 的 url，解析出其中的域名并返回。
+想必大家都使用过 `Vue.js` 中的 `filters` 功能 我们在模板中可以这样使用 `date | dateFormat`, 值就会被 `dateFormat` 所处理, 实现 Function.prototype.pip 函数，使得下面例子可以正常运行， 注: pipe 是可以管理任意数量函数的。
+
 ```js
-domainName("http://github.com/carbonfive/raygun") == "github" 
-domainName("http://www.zombie-bites.com") == "zombie-bites"
-domainName("https://www.cnet.com") == "cnet"
-domainName("www.xakep.ru") == "xakep"
-domainName("http://google.co.jp") == "google"
+var addOne = function(e) {
+    return e + 1;
+};
+
+var square = function(e) {
+    return e * e;
+};
+
+var result = [1,2,3,4,5].map(addOne.pipe(square)) //-> [4,9,16,25,36]
 ```
 
-做题连接: [第 28 题](https://github.com/spaasteam/spaas-daily-practice/issues/30)
+做题连接: [第 30 题](https://github.com/spaasteam/spaas-daily-practice/issues/32)
 
 
 

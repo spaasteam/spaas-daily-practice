@@ -28,7 +28,8 @@
 * [`第 26 题: 深度计数`](#%E7%AC%AC%2026%20%E9%A2%98:%20%E6%B7%B1%E5%BA%A6%E8%AE%A1%E6%95%B0)
 * [`第 27 题: 实现一个 once 包装函数`](#%E7%AC%AC%2027%20%E9%A2%98:%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%20once%20%E5%8C%85%E8%A3%85%E5%87%BD%E6%95%B0)
 * [`第 28 题: 匹配URL中的域名`](#%E7%AC%AC%2028%20%E9%A2%98:%20%E5%8C%B9%E9%85%8DURL%E4%B8%AD%E7%9A%84%E5%9F%9F%E5%90%8D)
-
+* [`第 29 题: 计算重复次数`](#%E7%AC%AC%2029%20%E9%A2%98:%20%E8%AE%A1%E7%AE%97%E9%87%8D%E5%A4%8D%E6%AC%A1%E6%95%B0)
+* [`第 30 题: pipe`](#%E7%AC%AC%2030%20%E9%A2%98:%20pipe)
 
 ---
 
@@ -508,13 +509,55 @@ function once(fn) {
 
 ### 第 28 题: 匹配URL中的域名
 
-写一个函数，接受一个类型为 sring 的 url，解析出其中的域名并返回。
+编写一个函数，计算从字符串中移除了多小个连续重复的字符。
+
 ```js
-domainName("http://github.com/carbonfive/raygun") == "github" 
-domainName("http://www.zombie-bites.com") == "zombie-bites"
-domainName("https://www.cnet.com") == "cnet"
-domainName("www.xakep.ru") == "xakep"
-domainName("http://google.co.jp") == "google"
+function countRepeats(str) {
+}
+
+// example
+// 'abbbbc'  => 'abc'    #  answer: 3
+// 'abbcca'  => 'abca'   #  answer: 2
+// 'ab cca'  => 'ab ca'  #  answer: 1
+// 'AABCCDA' => 'ABCDA'  #  answer: 2
 ```
 
 做题连接: [第 28 题](https://github.com/spaasteam/spaas-daily-practice/issues/30)
+
+
+### 第 29 题: 计算重复次数
+
+编写一个函数，计算从字符串中移除了多小个连续重复的字符。
+
+```js
+function countRepeats(str) {
+}
+
+// example
+// 'abbbbc'  => 'abc'    #  answer: 3
+// 'abbcca'  => 'abca'   #  answer: 2
+// 'ab cca'  => 'ab ca'  #  answer: 1
+// 'AABCCDA' => 'ABCDA'  #  answer: 2
+```
+
+做题连接: [第 29 题](https://github.com/spaasteam/spaas-daily-practice/issues/31)
+
+
+
+### 第 30 题: pipe
+
+想必大家都使用过 `Vue.js` 中的 `filters` 功能 我们在模板中可以这样使用 `date | dateFormat`, 值就会被 `dateFormat` 所处理, 实现 Function.prototype.pip 函数，使得下面例子可以正常运行， 注: pipe 是可以管理任意数量函数的。
+
+```js
+var addOne = function(e) {
+    return e + 1;
+};
+
+var square = function(e) {
+    return e * e;
+};
+
+var result = [1,2,3,4,5].map(addOne.pipe(square)) //-> [4,9,16,25,36]
+```
+
+做题连接: [第 30 题](https://github.com/spaasteam/spaas-daily-practice/issues/32)
