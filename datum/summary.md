@@ -30,6 +30,7 @@
 * [`第 28 题: 匹配URL中的域名`](#%E7%AC%AC%2028%20%E9%A2%98:%20%E5%8C%B9%E9%85%8DURL%E4%B8%AD%E7%9A%84%E5%9F%9F%E5%90%8D)
 * [`第 29 题: 计算重复次数`](#%E7%AC%AC%2029%20%E9%A2%98:%20%E8%AE%A1%E7%AE%97%E9%87%8D%E5%A4%8D%E6%AC%A1%E6%95%B0)
 * [`第 30 题: pipe`](#%E7%AC%AC%2030%20%E9%A2%98:%20pipe)
+* [`第 31 题: 单词搜索`](#%E7%AC%AC%2031%20%E9%A2%98:%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2)
 
 ---
 
@@ -561,3 +562,25 @@ var result = [1,2,3,4,5].map(addOne.pipe(square)) //-> [4,9,16,25,36]
 ```
 
 做题连接: [第 30 题](https://github.com/spaasteam/spaas-daily-practice/issues/32)
+
+
+### 第 31 题: 单词搜索
+
+给定一个二维网格和一个单词，找出该单词是否存在于网格中。
+
+单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
+
+```js
+board =
+[
+  ['A','B','C','E'],
+  ['S','F','C','S'],
+  ['A','D','E','E']
+]
+
+给定 word = "ABCCED", 返回 true.
+给定 word = "SEE", 返回 true.
+给定 word = "ABCB", 返回 false.
+```
+
+做题连接: [第 31 题](https://github.com/spaasteam/spaas-daily-practice/issues/33)

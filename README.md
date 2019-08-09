@@ -2,23 +2,26 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 pipe
+### 今日题目 单词搜索
 
-想必大家都使用过 `Vue.js` 中的 `filters` 功能 我们在模板中可以这样使用 `date | dateFormat`, 值就会被 `dateFormat` 所处理, 实现 Function.prototype.pip 函数，使得下面例子可以正常运行， 注: pipe 是可以管理任意数量函数的。
+给定一个二维网格和一个单词，找出该单词是否存在于网格中。
+
+单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
 
 ```js
-var addOne = function(e) {
-    return e + 1;
-};
+board =
+[
+  ['A','B','C','E'],
+  ['S','F','C','S'],
+  ['A','D','E','E']
+]
 
-var square = function(e) {
-    return e * e;
-};
-
-var result = [1,2,3,4,5].map(addOne.pipe(square)) //-> [4,9,16,25,36]
+给定 word = "ABCCED", 返回 true.
+给定 word = "SEE", 返回 true.
+给定 word = "ABCB", 返回 false.
 ```
 
-做题连接: [第 30 题](https://github.com/spaasteam/spaas-daily-practice/issues/32)
+做题连接: [第 31 题](https://github.com/spaasteam/spaas-daily-practice/issues/33)
 
 
 

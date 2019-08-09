@@ -5,4 +5,4 @@ const encodeTitle = (number, text) => {
   return `* [\`${title}\`](#${encodeURI(title)})`
 }
 
-console.log(encodeTitle(30, "pipe"));
+console.log(encodeTitle(31, "单词搜索"));
