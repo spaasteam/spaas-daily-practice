@@ -32,6 +32,7 @@
 * [`第 30 题: pipe`](#%E7%AC%AC%2030%20%E9%A2%98:%20pipe)
 * [`第 31 题: 单词搜索`](#%E7%AC%AC%2031%20%E9%A2%98:%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2)
 * [`第 32 题: 格式化 money`](#%E7%AC%AC%2032%20%E9%A2%98:%20%E6%A0%BC%E5%BC%8F%E5%8C%96%20money)
+* [`第 33 题: 实现 Array.prototype.filter 函数`](#%E7%AC%AC%2033%20%E9%A2%98:%20%E5%AE%9E%E7%8E%B0%20Array.prototype.filter%20%E5%87%BD%E6%95%B0)
 
 ---
 
@@ -611,3 +612,26 @@ example
 
 
 做题连接: [第 32 题](https://github.com/spaasteam/spaas-daily-practice/issues/34)
+
+
+
+### 第 33 题: 实现 Array.prototype.filter 函数
+
+实现一个 myFilter 与 `Array.prototype.fitler` 功能一样
+
+回调函数中的三个参数
+1. el
+2. 下标 index 
+3. 数组
+
+[具体介绍](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+```js
+var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.myFilter(word => word.length > 6);
+
+console.log(result); // ["exuberant", "destruction", "present"]
+```
+
+
+做题连接: [第 33 题](https://github.com/spaasteam/spaas-daily-practice/issues/35)

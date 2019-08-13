@@ -2,30 +2,27 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 格式化 money
+### 今日题目 实现 Array.prototype.myFilter 函数
 
 
-接受的数字范围: 0 <= n < 2147483647
+实现一个 myFilter 与 `Array.prototype.fitler` 功能一样
 
+回调函数中的三个参数
+1. el
+2. 下标 index 
+3. 数组
+
+[具体介绍](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 ```js
-const formatMoney = n => {
+var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
-}
+const result = words.myFilter(word => word.length > 6);
 
-example
-
-       1  ->           "1"
-      10  ->          "10"
-     100  ->         "100"
-    1000  ->       "1,000"
-   10000  ->      "10,000"
-  100000  ->     "100,000"
- 1000000  ->   "1,000,000"
-35235235  ->  "35,235,235"
+console.log(result); // ["exuberant", "destruction", "present"]
 ```
 
 
-做题连接: [第 32 题](https://github.com/spaasteam/spaas-daily-practice/issues/34)
+做题连接: [第 33 题](https://github.com/spaasteam/spaas-daily-practice/issues/35)
 
 
 
