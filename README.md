@@ -46,7 +46,7 @@ x.valueOf() == {num: this.num}
 
 
 
-做题连接: [第 33 题](https://github.com/spaasteam/spaas-daily-practice/issues/33)
+做题连接: [第 34 题](https://github.com/spaasteam/spaas-daily-practice/issues/34)
 
 
 
