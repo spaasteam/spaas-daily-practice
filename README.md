@@ -2,30 +2,51 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 格式化 money
+### 今日题目 对象运算
 
 
-接受的数字范围: 0 <= n < 2147483647
+小明写了一个 class Numb
 
 ```js
-const formatMoney = n => {
-
+class Num {
+  constructor(num){
+    this.num=num;
+  }
+  toString() {
+    return "The number is " + this.num;
+  }
+  valueOf() {
+    return {num: this.num};
+  }
 }
+```
 
-example
+他尝试使用它去进行一些计算
 
-       1  ->           "1"
-      10  ->          "10"
-     100  ->         "100"
-    1000  ->       "1,000"
-   10000  ->      "10,000"
-  100000  ->     "100,000"
- 1000000  ->   "1,000,000"
-35235235  ->  "35,235,235"
+```js
+  x = new Num(100);
+  y = new Num(5);
+  x + y == 105;
+  x*y == 500;
+  x-y == 95
+  x/y == 20
+  Math.floor(new Num(100.5)) == 100
+```
+
+但这运行起来似乎有点问题..... 结果为 `'[object Object][object Object]'`
+
+小明仍然想要保留 `toString()` 和 `valueOf()` 方法, 但想要我们帮助它解决问题！
+
+```js
+x = new Num(100);
+x.toString() == "The number is " + num
+x.valueOf() == {num: this.num}
 ```
 
 
-做题连接: [第 32 题](https://github.com/spaasteam/spaas-daily-practice/issues/34)
+
+
+做题连接: [第 33 题](https://github.com/spaasteam/spaas-daily-practice/issues/33)
 
 
 

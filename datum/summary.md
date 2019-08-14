@@ -32,6 +32,7 @@
 * [`第 30 题: pipe`](#%E7%AC%AC%2030%20%E9%A2%98:%20pipe)
 * [`第 31 题: 单词搜索`](#%E7%AC%AC%2031%20%E9%A2%98:%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2)
 * [`第 32 题: 格式化 money`](#%E7%AC%AC%2032%20%E9%A2%98:%20%E6%A0%BC%E5%BC%8F%E5%8C%96%20money)
+* [`第 33 题: 对象运算`](#%E7%AC%AC%2033%20%E9%A2%98:%20%E5%AF%B9%E8%B1%A1%E8%BF%90%E7%AE%97)
 
 ---
 
@@ -611,3 +612,51 @@ example
 
 
 做题连接: [第 32 题](https://github.com/spaasteam/spaas-daily-practice/issues/34)
+
+
+
+### 第 33 题: 对象运算
+
+
+小明写了一个 class Numb
+
+```js
+class Num {
+  constructor(num){
+    this.num=num;
+  }
+  toString() {
+    return "The number is " + this.num;
+  }
+  valueOf() {
+    return {num: this.num};
+  }
+}
+```
+
+他尝试使用它去进行一些计算
+
+```js
+  x = new Num(100);
+  y = new Num(5);
+  x + y == 105;
+  x*y == 500;
+  x-y == 95
+  x/y == 20
+  Math.floor(new Num(100.5)) == 100
+```
+
+但这运行起来似乎有点问题..... 结果为 `'[object Object][object Object]'`
+
+小明仍然想要保留 `toString()` 和 `valueOf()` 方法, 但想要我们帮助它解决问题！
+
+```js
+x = new Num(100);
+x.toString() == "The number is " + num
+x.valueOf() == {num: this.num}
+```
+
+
+
+
+做题连接: [第 33 题](https://github.com/spaasteam/spaas-daily-practice/issues/33)

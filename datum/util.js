@@ -9,4 +9,4 @@ const encodeTitle = (number, text) => {
   return `* [\`${title}\`](#${encodeURI(title)})`;
 };
 
-console.log(encodeTitle(32, "格式化 money"));
+console.log(encodeTitle(33, "对象运算"));
