@@ -34,6 +34,7 @@
 * [`第 32 题: 格式化 money`](#%E7%AC%AC%2032%20%E9%A2%98:%20%E6%A0%BC%E5%BC%8F%E5%8C%96%20money)
 * [`第 33 题: 对象运算`](#%E7%AC%AC%2033%20%E9%A2%98:%20%E5%AF%B9%E8%B1%A1%E8%BF%90%E7%AE%97)
 * [`第 34 题: 实现 Array.prototype.filter 函数`](#%E7%AC%AC%2033%20%E9%A2%98:%20%E5%AE%9E%E7%8E%B0%20Array.prototype.filter%20%E5%87%BD%E6%95%B0)
+* [`第 35 题: 标签生成器`](#%E7%AC%AC%2035%20%E9%A2%98:%20%E6%A0%87%E7%AD%BE%E7%94%9F%E6%88%90%E5%99%A8)
 
 ---
 
@@ -683,3 +684,24 @@ x.valueOf() == {num: this.num}
 
 
 做题连接: [第 34 题](https://github.com/spaasteam/spaas-daily-practice/issues/36)
+
+
+
+### 第 35 题: 标签生成器
+
+
+1. 它必须以hashtag（#）开头。
+2. 所有单词必须首字母大写。
+3. 如果最终结果超过140个字符，则必须返回false。
+4. 如果输入或结果是空字符串，则必须返回false。
+
+example
+
+```js
+" Hello there thanks for trying my Kata"  =>  "#HelloThereThanksForTryingMyKata"
+"    Hello     World   "                  =>  "#HelloWorld"
+""                                        =>  false
+```
+
+
+做题连接: [第 35 题](https://github.com/spaasteam/spaas-daily-practice/issues/37)

@@ -2,51 +2,24 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 对象运算
+### 今日题目 标签生成器
 
 
-小明写了一个 class Numb
+1. 它必须以hashtag（#）开头。
+2. 所有单词必须首字母大写。
+3. 如果最终结果超过140个字符，则必须返回false。
+4. 如果输入或结果是空字符串，则必须返回false。
 
-```js
-class Num {
-  constructor(num){
-    this.num=num;
-  }
-  toString() {
-    return "The number is " + this.num;
-  }
-  valueOf() {
-    return {num: this.num};
-  }
-}
-```
-
-他尝试使用它去进行一些计算
+example
 
 ```js
-  x = new Num(100);
-  y = new Num(5);
-  x + y == 105;
-  x*y == 500;
-  x-y == 95
-  x/y == 20
-  Math.floor(new Num(100.5)) == 100
-```
-
-但这运行起来似乎有点问题..... 结果为 `'[object Object][object Object]'`
-
-小明仍然想要保留 `toString()` 和 `valueOf()` 方法, 但想要我们帮助它解决问题！
-
-```js
-x = new Num(100);
-x.toString() == "The number is " + num
-x.valueOf() == {num: this.num}
+" Hello there thanks for trying my Kata"  =>  "#HelloThereThanksForTryingMyKata"
+"    Hello     World   "                  =>  "#HelloWorld"
+""                                        =>  false
 ```
 
 
-
-
-做题连接: [第 34 题](https://github.com/spaasteam/spaas-daily-practice/issues/34)
+做题连接: [第 35 题](https://github.com/spaasteam/spaas-daily-practice/issues/37)
 
 
 
