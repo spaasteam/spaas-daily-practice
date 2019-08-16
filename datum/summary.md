@@ -35,6 +35,8 @@
 * [`第 33 题: 对象运算`](#%E7%AC%AC%2033%20%E9%A2%98:%20%E5%AF%B9%E8%B1%A1%E8%BF%90%E7%AE%97)
 * [`第 34 题: 实现 Array.prototype.filter 函数`](#%E7%AC%AC%2033%20%E9%A2%98:%20%E5%AE%9E%E7%8E%B0%20Array.prototype.filter%20%E5%87%BD%E6%95%B0)
 * [`第 35 题: 标签生成器`](#%E7%AC%AC%2035%20%E9%A2%98:%20%E6%A0%87%E7%AD%BE%E7%94%9F%E6%88%90%E5%99%A8)
+* [`第 36 题: 重写 Array.prototype.splice`](#%E7%AC%AC%2036%20%E9%A2%98:%20%E9%87%8D%E5%86%99%20Array.prototype.splice)
+* [`第 36 题: 重写 Array.prototype.splice`](#%E7%AC%AC%2036%20%E9%A2%98:%20%E9%87%8D%E5%86%99%20Array.prototype.splice)
 
 ---
 
@@ -705,3 +707,34 @@ example
 
 
 做题连接: [第 35 题](https://github.com/spaasteam/spaas-daily-practice/issues/37)
+
+
+### 第 36 题: 重写 Array.prototype.splice
+
+该方法应该有2个或更多参数：
+
+1. from 参数提供一个范围在 0 或更大的整数，用作开始更改数组的第一个索引。
+2. count 参数提供一个范围在0或更大的整数，用于计算应从 from 索引中删除的项目数。
+3. 传入的任何其他参数将是从 from 索引开始插入数组的新项。这些额外的参数是可选的。
+
+该方法应该返回一个数组，其中包含由 splice 删除的所有项，如果没有项被删除则返回一个空数组。应该就地对阵列进行更改
+example
+
+[详细定义以及用法](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
+```js
+var months = ['Jan', 'March', 'April', 'June'];
+months.mySplice(1, 0, 'Feb');
+// inserts at index 1
+console.log(months);
+// expected output: Array ['Jan', 'Feb', 'March', 'April', 'June']
+
+months.mySplice(4, 1, 'May');
+// replaces 1 element at index 4
+console.log(months);
+// expected output: Array ['Jan', 'Feb', 'March', 'April', 'May']
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/number)
+
+

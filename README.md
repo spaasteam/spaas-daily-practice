@@ -2,24 +2,36 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 标签生成器
+### 今日题目 重写 Array.prototype.splice
 
 
-1. 它必须以hashtag（#）开头。
-2. 所有单词必须首字母大写。
-3. 如果最终结果超过140个字符，则必须返回false。
-4. 如果输入或结果是空字符串，则必须返回false。
+该方法应该有2个或更多参数：
 
+1. from 参数提供一个范围在 0 或更大的整数，用作开始更改数组的第一个索引。
+2. count 参数提供一个范围在0或更大的整数，用于计算应从 from 索引中删除的项目数。
+3. 传入的任何其他参数将是从 from 索引开始插入数组的新项。这些额外的参数是可选的。
+
+该方法应该返回一个数组，其中包含由 splice 删除的所有项，如果没有项被删除则返回一个空数组。应该就地对阵列进行更改
 example
 
+[详细定义以及用法](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
 ```js
-" Hello there thanks for trying my Kata"  =>  "#HelloThereThanksForTryingMyKata"
-"    Hello     World   "                  =>  "#HelloWorld"
-""                                        =>  false
+var months = ['Jan', 'March', 'April', 'June'];
+months.mySplice(1, 0, 'Feb');
+// inserts at index 1
+console.log(months);
+// expected output: Array ['Jan', 'Feb', 'March', 'April', 'June']
+
+months.mySplice(4, 1, 'May');
+// replaces 1 element at index 4
+console.log(months);
+// expected output: Array ['Jan', 'Feb', 'March', 'April', 'May']
 ```
 
 
-做题连接: [第 35 题](https://github.com/spaasteam/spaas-daily-practice/issues/37)
+做题连接: [第 36 题](https://github.com/spaasteam/spaas-daily-practice/issues/38)
+
 
 
 
