@@ -26,7 +26,7 @@ const writeSummary = ({ title, quickTitle, number }) => {
 
   let str =
     content.slice(0, insertIndex) +
-    "* [`第 36 题: 重写 Array.prototype.splice`](#%E7%AC%AC%2036%20%E9%A2%98:%20%E9%87%8D%E5%86%99%20Array.prototype.splice)\n";
+    `${quickTitle}\n`;
 
   str += content.slice(insertIndex);
 
@@ -39,6 +39,6 @@ const writeSummary = ({ title, quickTitle, number }) => {
   console.log("done !!!!");
 };
 
-const data = encodeTitle(36, "重写 Array.prototype.splice");
+const data = encodeTitle(37, "v-for v-if 为什么不推荐同时使用？");
 
 writeSummary(data);

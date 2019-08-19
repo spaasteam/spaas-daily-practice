@@ -37,6 +37,7 @@
 * [`第 35 题: 标签生成器`](#%E7%AC%AC%2035%20%E9%A2%98:%20%E6%A0%87%E7%AD%BE%E7%94%9F%E6%88%90%E5%99%A8)
 * [`第 36 题: 重写 Array.prototype.splice`](#%E7%AC%AC%2036%20%E9%A2%98:%20%E9%87%8D%E5%86%99%20Array.prototype.splice)
 * [`第 36 题: 重写 Array.prototype.splice`](#%E7%AC%AC%2036%20%E9%A2%98:%20%E9%87%8D%E5%86%99%20Array.prototype.splice)
+* [`第 37 题: v-for v-if 为什么不推荐同时使用？`](#%E7%AC%AC%2037%20%E9%A2%98:%20v-for%20v-if%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E6%8E%A8%E8%8D%90%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%EF%BC%9F)
 
 ---
 
@@ -737,4 +738,12 @@ console.log(months);
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/number)
 
+
+### 第 37 题: v-for v-if 为什么不推荐同时使用？
+
+```js
+请用自己的理解说出（不理解的请先查阅资料）
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/number) 
 
