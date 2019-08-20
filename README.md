@@ -2,13 +2,13 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 v-for v-if 为什么不推荐同时使用？
+### 今日题目 第 38 题: vue为什么要求组件模板只能有一个根元素？
 
 ```js
-请用自己的理解说出（不理解的请先查阅资料）
+请用自己的理解说出（可先查阅资料）
 ```
 
-做题连接: [第 36 题](https://github.com/spaasteam/spaas-daily-practice/issues/38)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/40) 
 
 
 

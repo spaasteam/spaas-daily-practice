@@ -38,6 +38,7 @@
 * [`第 36 题: 重写 Array.prototype.splice`](#%E7%AC%AC%2036%20%E9%A2%98:%20%E9%87%8D%E5%86%99%20Array.prototype.splice)
 * [`第 36 题: 重写 Array.prototype.splice`](#%E7%AC%AC%2036%20%E9%A2%98:%20%E9%87%8D%E5%86%99%20Array.prototype.splice)
 * [`第 37 题: v-for v-if 为什么不推荐同时使用？`](#%E7%AC%AC%2037%20%E9%A2%98:%20v-for%20v-if%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E6%8E%A8%E8%8D%90%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%EF%BC%9F)
+* [`第 38 题: vue为什么要求组件模板只能有一个根元素？`](#%E7%AC%AC%2038%20%E9%A2%98:%20vue%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%B1%82%E7%BB%84%E4%BB%B6%E6%A8%A1%E6%9D%BF%E5%8F%AA%E8%83%BD%E6%9C%89%E4%B8%80%E4%B8%AA%E6%A0%B9%E5%85%83%E7%B4%A0%EF%BC%9F)
 
 ---
 
@@ -736,7 +737,7 @@ console.log(months);
 // expected output: Array ['Jan', 'Feb', 'March', 'April', 'May']
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/number)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/38)
 
 
 ### 第 37 题: v-for v-if 为什么不推荐同时使用？
@@ -745,5 +746,13 @@ console.log(months);
 请用自己的理解说出（不理解的请先查阅资料）
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/number) 
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/39) 
+
+### 第 38 题: vue为什么要求组件模板只能有一个根元素？
+
+```js
+请用自己的理解说出（可先查阅资料）
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/40) 
 
