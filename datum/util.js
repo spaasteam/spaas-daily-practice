@@ -39,6 +39,6 @@ const writeSummary = ({ title, quickTitle, number }) => {
   console.log("done !!!!");
 };
 
-const data = encodeTitle(38, "vue为什么要求组件模板只能有一个根元素？");
+const data = encodeTitle(39, "实现 sum 函数");
 
 writeSummary(data);

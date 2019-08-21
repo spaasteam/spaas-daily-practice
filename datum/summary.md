@@ -39,6 +39,7 @@
 * [`第 36 题: 重写 Array.prototype.splice`](#%E7%AC%AC%2036%20%E9%A2%98:%20%E9%87%8D%E5%86%99%20Array.prototype.splice)
 * [`第 37 题: v-for v-if 为什么不推荐同时使用？`](#%E7%AC%AC%2037%20%E9%A2%98:%20v-for%20v-if%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E6%8E%A8%E8%8D%90%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%EF%BC%9F)
 * [`第 38 题: vue为什么要求组件模板只能有一个根元素？`](#%E7%AC%AC%2038%20%E9%A2%98:%20vue%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%B1%82%E7%BB%84%E4%BB%B6%E6%A8%A1%E6%9D%BF%E5%8F%AA%E8%83%BD%E6%9C%89%E4%B8%80%E4%B8%AA%E6%A0%B9%E5%85%83%E7%B4%A0%EF%BC%9F)
+* [`第 39 题: 实现 sum 函数`](#%E7%AC%AC%2039%20%E9%A2%98:%20%E5%AE%9E%E7%8E%B0%20sum%20%E5%87%BD%E6%95%B0)
 
 ---
 
@@ -755,4 +756,36 @@ console.log(months);
 ```
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/40) 
+
+### 第 39 题: 实现 sum 函数
+
+
+实现一个 `sum` 函数接受整个数组和一个可选项的 `callback` 函数，并在每个列数组上返回函数的总和，如果 `callback` 不传，默认是计算总和。
+
+example
+```js
+
+sum([1, 2, 3]) => 6
+1 + 2 +3
+
+sum([1, 2, 3], [4, 5, 6]) => 21
+
+1   2   3
++   +   +
+4   5   6
+↓   ↓   ↓
+5 + 7 + 9 = 21
+
+
+sum([1,2,3], [4,5,6], (a, b) => a * b)) => 32
+
+1    2    3
+*    *    *
+4    5    6
+↓    ↓    ↓
+4 + 10 + 18 = 32
+
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/39) 
 

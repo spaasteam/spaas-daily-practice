@@ -2,13 +2,36 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 第 38 题: vue为什么要求组件模板只能有一个根元素？
+### 今日题目 第 39 题: 实现 sum 函数
 
+实现一个 `sum` 函数接受整个数组和一个可选项的 `callback` 函数，并在每个列数组上返回函数的总和，如果 `callback` 不传，默认是计算总和。
+
+example
 ```js
-请用自己的理解说出（可先查阅资料）
+
+sum([1, 2, 3]) => 6
+1 + 2 +3
+
+sum([1, 2, 3], [4, 5, 6]) => 21
+
+1   2   3
++   +   +
+4   5   6
+↓   ↓   ↓
+5 + 7 + 9 = 21
+
+
+sum([1,2,3], [4,5,6], (a, b) => a * b)) => 32
+
+1    2    3
+*    *    *
+4    5    6
+↓    ↓    ↓
+4 + 10 + 18 = 32
+
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/40) 
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/41) 
 
 
 
