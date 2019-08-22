@@ -40,6 +40,7 @@
 * [`第 37 题: v-for v-if 为什么不推荐同时使用？`](#%E7%AC%AC%2037%20%E9%A2%98:%20v-for%20v-if%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E6%8E%A8%E8%8D%90%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%EF%BC%9F)
 * [`第 38 题: vue为什么要求组件模板只能有一个根元素？`](#%E7%AC%AC%2038%20%E9%A2%98:%20vue%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%B1%82%E7%BB%84%E4%BB%B6%E6%A8%A1%E6%9D%BF%E5%8F%AA%E8%83%BD%E6%9C%89%E4%B8%80%E4%B8%AA%E6%A0%B9%E5%85%83%E7%B4%A0%EF%BC%9F)
 * [`第 39 题: 实现 sum 函数`](#%E7%AC%AC%2039%20%E9%A2%98:%20%E5%AE%9E%E7%8E%B0%20sum%20%E5%87%BD%E6%95%B0)
+* [`第 40 题: Array.diff`](#%E7%AC%AC%2040%20%E9%A2%98:%20Array.diff)
 
 ---
 
@@ -788,4 +789,22 @@ sum([1,2,3], [4,5,6], (a, b) => a * b)) => 32
 ```
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/39) 
+
+### 第 40 题: Array.diff
+
+实现一个 属于数组的 `diff` 函数。
+
+该方法接收 `2` 个数组，对比得出它们之间的差异，最后返回在 `A` 数组，或 `B` 数组中只出现过一次的数字的组合
+
+```js
+function array_diff(A1, B) {
+
+}
+
+// example
+
+array_diff([1, 2, 3], [2, 4, 6]) // [1, 3, 4, 6]
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/40) 
 

@@ -39,6 +39,6 @@ const writeSummary = ({ title, quickTitle, number }) => {
   console.log("done !!!!");
 };
 
-const data = encodeTitle(39, "实现 sum 函数");
+const data = encodeTitle(40, "Array.diff");
 
 writeSummary(data);

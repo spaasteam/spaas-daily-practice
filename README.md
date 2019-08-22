@@ -2,38 +2,23 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 第 39 题: 实现 sum 函数
+### 今日题目 Array.diff
 
-实现一个 `sum` 函数接受整个数组和一个可选项的 `callback` 函数，并在每个列数组上返回函数的总和，如果 `callback` 不传，默认是计算总和。
+实现一个 属于数组的 `diff` 函数。
 
-example
+该方法接收 `2` 个数组，对比得出它们之间的差异，最后返回在 `A` 数组，或 `B` 数组中只出现过一次的数字的组合
+
 ```js
+function array_diff(A1, B) {
 
-sum([1, 2, 3]) => 6
-1 + 2 +3
+}
 
-sum([1, 2, 3], [4, 5, 6]) => 21
+// example
 
-1   2   3
-+   +   +
-4   5   6
-↓   ↓   ↓
-5 + 7 + 9 = 21
-
-
-sum([1,2,3], [4,5,6], (a, b) => a * b)) => 32
-
-1    2    3
-*    *    *
-4    5    6
-↓    ↓    ↓
-4 + 10 + 18 = 32
-
+array_diff([1, 2, 3], [2, 4, 6]) // [1, 3, 4, 6]
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/41) 
-
-
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/40) 
 
 
 ## 历史题目
