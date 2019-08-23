@@ -41,6 +41,7 @@
 * [`第 38 题: vue为什么要求组件模板只能有一个根元素？`](#%E7%AC%AC%2038%20%E9%A2%98:%20vue%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%B1%82%E7%BB%84%E4%BB%B6%E6%A8%A1%E6%9D%BF%E5%8F%AA%E8%83%BD%E6%9C%89%E4%B8%80%E4%B8%AA%E6%A0%B9%E5%85%83%E7%B4%A0%EF%BC%9F)
 * [`第 39 题: 实现 sum 函数`](#%E7%AC%AC%2039%20%E9%A2%98:%20%E5%AE%9E%E7%8E%B0%20sum%20%E5%87%BD%E6%95%B0)
 * [`第 40 题: Array.diff`](#%E7%AC%AC%2040%20%E9%A2%98:%20Array.diff)
+* [`第 41 题: 对字符串排序`](#%E7%AC%AC%2041%20%E9%A2%98:%20%E5%AF%B9%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%8E%92%E5%BA%8F)
 
 ---
 
@@ -807,4 +808,22 @@ array_diff([1, 2, 3], [2, 4, 6]) // [1, 3, 4, 6]
 ```
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/40) 
+
+### 第 41 题: 对字符串排序
+字符串中的每个单词都会有一个数字，但是数字的位置不定
+
+数字的范围是 `1~9`
+
+如果输入为空，则返回空
+
+
+```js
+function soryStrByNumber(str){}
+
+soryStrByNumber('is2 Thi1s T4est 3a') // "Thi1s is2 3a T4est"
+soryStrByNumber('4of Fo1r pe6ople g3ood th5e the2') // "Fo1r the2 g3ood 4of th5e pe6ople"
+soryStrByNumber('') // ''
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/41) 
 

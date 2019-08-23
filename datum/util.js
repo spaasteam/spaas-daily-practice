@@ -32,13 +32,15 @@ const writeSummary = ({ title, quickTitle, number }) => {
 
   str += `${title}\n\n`;
 
-  str += `[做题连接](${githubPath}/${number}) \n\n`;
+  const offset = 2 // 偏移量
+
+  str += `[做题连接](${githubPath}/${number + offset}) \n\n`;
 
   fs.writeFileSync(filePath, str, "utf8");
 
   console.log("done !!!!");
 };
 
-const data = encodeTitle(40, "Array.diff");
+const data = encodeTitle(41, "对字符串排序");
 
 writeSummary(data);

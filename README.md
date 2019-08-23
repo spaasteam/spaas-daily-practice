@@ -2,23 +2,23 @@
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
-### 今日题目 Array.diff
+### 今日题目 对字符串排序
+字符串中的每个单词都会有一个数字，但是数字的位置不定
 
-实现一个 属于数组的 `diff` 函数。
+数字的范围是 `1~9`
 
-该方法接收 `2` 个数组，对比得出它们之间的差异，最后返回在 `A` 数组，或 `B` 数组中只出现过一次的数字的组合
+如果输入为空，则返回空
+
 
 ```js
-function array_diff(A1, B) {
+function soryStrByNumber(str){}
 
-}
-
-// example
-
-array_diff([1, 2, 3], [2, 4, 6]) // [1, 3, 4, 6]
+soryStrByNumber('is2 Thi1s T4est 3a') // "Thi1s is2 3a T4est"
+soryStrByNumber('4of Fo1r pe6ople g3ood th5e the2') // "Fo1r the2 g3ood 4of th5e pe6ople"
+soryStrByNumber('') // ''
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/40) 
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/43) 
 
 
 ## 历史题目
