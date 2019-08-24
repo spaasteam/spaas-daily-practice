@@ -28,17 +28,38 @@ const createIssue = () => {
   })
 }
 
-// createIssue()
+function getFileContent() {
+  // const api = `https://api.github.com/repos/spaasteam/spaas-daily-practice/contents/datum/questions.md`
+  const api = `https://api.github.com/repos/spaasteam/spaas-daily-practice/contents/README.md`
 
+  axios.get(api).then(({ data }) => {
+    console.log(data.content, Buffer.from(data.content, 'base64').toString())
+    console.log(data.sha);
+  })
+  // decodeURIComponent(escape(atob('5oiR5piv5Lit5paH'))) 浏览器解码方案
+  // btoa(unescape(encodeURIComponent('我是中文'))); // 编码方案
+}
+
+getFileContent()
+
+// console.log(atob);
+
+// createIssue()
 
 function postMessage() {
   const dingApi = `https://oapi.dingtalk.com/robot/send?access_token=${process.env.robat_token}`
   axios.post(dingApi, {
     msgtype: 'text',
     text: {
-      content: '@所有人 大家好'
+      content: '大家好'
+    },
+    at: {
+      isAtAll: true
     }
   })
 }
 
-postMessage()
+// postMessage()
+
+
+// getFileContent()

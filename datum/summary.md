@@ -43,6 +43,9 @@
   * [第 40 题: Array.diff](#%E7%AC%AC-40-%E9%A2%98-arraydiff)
   * [第 41 题: 对字符串排序](#%E7%AC%AC-41-%E9%A2%98-%E5%AF%B9%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%8E%92%E5%BA%8F)
 
+<!-- write token plase keep it -->
+
+
 ## 题目以及答案汇总
 
 ### 第一题: 实现 (5).add(3).minus(2) 功能
