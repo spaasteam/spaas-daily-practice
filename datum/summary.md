@@ -516,6 +516,8 @@ function once(fn) {
 }
 ```
 
+做题连接: [第 27 题](https://github.com/spaasteam/spaas-daily-practice/issues/29)
+
 ### 第 28 题: 匹配URL中的域名
 
 编写一个函数，计算从字符串中移除了多小个连续重复的字符。
