@@ -1,5 +1,7 @@
 
 require('dotenv').config()
+const axios = require('axios')
+
 // https://github.com/gdaib/koa-todo
 
 // {
@@ -8,7 +10,6 @@ require('dotenv').config()
 // }
 
 
-const axios = require('axios')
 
 
 const createIssue = () => {
@@ -27,4 +28,17 @@ const createIssue = () => {
   })
 }
 
-createIssue()
+// createIssue()
+
+
+function postMessage() {
+  const dingApi = `https://oapi.dingtalk.com/robot/send?access_token=${process.env.robat_token}`
+  axios.post(dingApi, {
+    msgtype: 'text',
+    text: {
+      content: '@所有人 大家好'
+    }
+  })
+}
+
+postMessage()
