@@ -790,7 +790,7 @@ sum([1,2,3], [4,5,6], (a, b) => a * b)) => 32
 
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/39) 
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/41) 
 
 ### 第 40 题: Array.diff
 
@@ -808,7 +808,7 @@ function array_diff(A1, B) {
 array_diff([1, 2, 3], [2, 4, 6]) // [1, 3, 4, 6]
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/40) 
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/42) 
 
 ### 第 41 题: 对字符串排序
 字符串中的每个单词都会有一个数字，但是数字的位置不定
@@ -826,5 +826,5 @@ soryStrByNumber('4of Fo1r pe6ople g3ood th5e the2') // "Fo1r the2 g3ood 4of th5e
 soryStrByNumber('') // ''
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/41) 
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/43) 
 
