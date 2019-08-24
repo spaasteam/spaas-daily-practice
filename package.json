@@ -1,0 +1,23 @@
+{
+  "name": "spaas-daily-practice",
+  "version": "1.0.0",
+  "description": "spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spaasteam/spaas-daily-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spaasteam/spaas-daily-practice/issues"
+  },
+  "homepage": "https://github.com/spaasteam/spaas-daily-practice#readme",
+  "dependencies": {
+    "markdown-toc": "^1.2.0"
+  }
+}
