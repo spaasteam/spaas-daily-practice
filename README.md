@@ -1,24 +1,19 @@
 # spaas-daily-practice
 spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
-<!-- start -->
-### 今日题目 对字符串排序
-字符串中的每个单词都会有一个数字，但是数字的位置不定
 
-数字的范围是 `1~9`
 
-如果输入为空，则返回空
+### 今日题目 找出独一无二的数字
 
+数组中有一个元素会是独一无二的，尝试找出它的所在 =v=...!
 
 ```js
-function soryStrByNumber(str){}
-
-soryStrByNumber('is2 Thi1s T4est 3a') // "Thi1s is2 3a T4est"
-soryStrByNumber('4of Fo1r pe6ople g3ood th5e the2') // "Fo1r the2 g3ood 4of th5e pe6ople"
-soryStrByNumber('') // ''
+findUniq([ 1, 1, 1, 2, 1, 1 ]) === 2
+findUniq([ 0, 0, 0.55, 0, 0 ]) === 0.55
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/43) 
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/48)
+
 <!-- end -->
 
 
