@@ -3,15 +3,18 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 根据以下要求，写一个数组去重函数
+### 今日题目 实现一个 CamelCase 函数
 
-1. 如传入的数组元素为[123, "meili", "123", "mogu", 123]，则输出：[123, "meili", "123", "mogu"]
+实现一个把英文句子转换成驼峰命名的方法
 
-2. 如传入的数组元素为[123, [1, 2, 3], [1, "2", 3], [1, 2, 3], "meili"]，则输出：[123, [1, 2, 3], [1, "2", 3], "meili"]
+**example**
 
-3. 如传入的数组元素为[123, {a: 1}, {a: {b: 1}}, {a: "1"}, {a: {b: 1}}, "meili"]，则输出：[123, {a: 1}, {a: {b: 1}}, {a: "1"}, "meili"]
+```js
+"hello case".camelCase() => HelloCase
+"camel case word".camelCase() => CamelCaseWord
+```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/49)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/50)
 
 <!-- end -->
 
