@@ -47,8 +47,10 @@
   * [第 42 题: 找出独一无二的数字](#第-42-题-找出独一无二的数字)
   * [第 43 题: 根据以下要求，写一个数组去重函数](#第-43-题-根据以下要求写一个数组去重函数)
   * [第 44 题: 实现一个 CamelCase 函数](#第-44-题-实现一个-camelcase-函数)
+  * [第 45 题: 设计并实现Promise. race()](#第-45-题-设计并实现promise-race)
 
 <!-- toc stop -->
+
 
 
 
@@ -869,3 +871,9 @@ findUniq([ 0, 0, 0.55, 0, 0 ]) === 0.55
 ```
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/50)
+
+### 第 45 题: 设计并实现Promise. race()
+
+设计并实现Promise. race()
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/52)
