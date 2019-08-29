@@ -3,18 +3,11 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 实现一个 CamelCase 函数
+### 今日题目 设计并实现Promise. race()
 
-实现一个把英文句子转换成驼峰命名的方法
+设计并实现Promise. race()
 
-**example**
-
-```js
-"hello case".camelCase() => HelloCase
-"camel case word".camelCase() => CamelCaseWord
-```
-
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/50)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/52)
 
 <!-- end -->
 
