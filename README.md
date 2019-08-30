@@ -3,11 +3,11 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 设计并实现Promise. race()
+### 今日题目 设计并实现Promise. all()
 
-设计并实现Promise. race()
+设计并实现Promise. all()
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/52)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/54)
 
 <!-- end -->
 

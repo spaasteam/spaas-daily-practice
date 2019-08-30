@@ -48,8 +48,11 @@
   * [第 43 题: 根据以下要求，写一个数组去重函数](#第-43-题-根据以下要求写一个数组去重函数)
   * [第 44 题: 实现一个 CamelCase 函数](#第-44-题-实现一个-camelcase-函数)
   * [第 45 题: 设计并实现Promise. race()](#第-45-题-设计并实现promise-race)
+  * [第 46 题: 设计并实现Promise. all()](#第-46-题-设计并实现promise-all)
 
 <!-- toc stop -->
+
+
 
 
 
@@ -877,3 +880,10 @@ findUniq([ 0, 0, 0.55, 0, 0 ]) === 0.55
 设计并实现Promise. race()
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/52)
+
+
+### 第 46 题: 设计并实现Promise. all()
+
+设计并实现Promise. all()
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/54)
