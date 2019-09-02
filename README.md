@@ -3,11 +3,15 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 设计并实现Promise. all()
+### 今日题目 编写一个函数，输出文件相对路径
 
-设计并实现Promise. all()
+```js
+function relativePath() {}
+// 参数：当前文件，引用文件
+relativePath('/a/b/c/d/e.js', '/a/b/f/g.js') // '../../../f/g.js'
+```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/54)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/55)
 
 <!-- end -->
 
