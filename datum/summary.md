@@ -49,8 +49,10 @@
   * [第 44 题: 实现一个 CamelCase 函数](#第-44-题-实现一个-camelcase-函数)
   * [第 45 题: 设计并实现Promise. race()](#第-45-题-设计并实现promise-race)
   * [第 46 题: 设计并实现Promise. all()](#第-46-题-设计并实现promise-all)
+  * [第 48 题: 编写一个函数，输出文件相对路径](#第-48-题-编写一个函数输出文件相对路径)
 
 <!-- toc stop -->
+
 
 
 
@@ -887,3 +889,14 @@ findUniq([ 0, 0, 0.55, 0, 0 ]) === 0.55
 设计并实现Promise. all()
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/54)
+
+
+### 第 48 题: 编写一个函数，输出文件相对路径
+
+```js
+function relativePath() {}
+// 参数：当前文件，引用文件
+relativePath('/a/b/c/d/e.js', '/a/b/f/g.js') // '../../../f/g.js'
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/59)
