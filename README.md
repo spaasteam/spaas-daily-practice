@@ -11,7 +11,7 @@ function relativePath() {}
 relativePath('/a/b/c/d/e.js', '/a/b/f/g.js') // '../../../f/g.js'
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/58)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/59)
 
 <!-- end -->
 
