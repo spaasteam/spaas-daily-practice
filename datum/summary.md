@@ -50,8 +50,10 @@
   * [第 45 题: 设计并实现Promise. race()](#第-45-题-设计并实现promise-race)
   * [第 46 题: 设计并实现Promise. all()](#第-46-题-设计并实现promise-all)
   * [第 48 题: 编写一个函数，输出文件相对路径](#第-48-题-编写一个函数输出文件相对路径)
+  * [第 48 题: 简单改造下面的代码，使之分别打印 10 和 20。](#第-48-题-简单改造下面的代码使之分别打印-10-和-20)
 
 <!-- toc stop -->
+
 
 
 
@@ -900,3 +902,14 @@ relativePath('/a/b/c/d/e.js', '/a/b/f/g.js') // '../../../f/g.js'
 ```
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/59)
+
+### 第 48 题: 简单改造下面的代码，使之分别打印 10 和 20。
+
+```
+var b = 10;
+(function b(){
+    b = 20;
+    console.log(b); 
+})();
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/60)
