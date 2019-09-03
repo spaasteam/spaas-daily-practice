@@ -3,15 +3,16 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 编写一个函数，输出文件相对路径
+### 今日题目 简单改造下面的代码，使之分别打印 10 和 20。
 
-```js
-function relativePath() {}
-// 参数：当前文件，引用文件
-relativePath('/a/b/c/d/e.js', '/a/b/f/g.js') // '../../../f/g.js'
 ```
+var b = 10;
+(function b(){
+    b = 20;
+    console.log(b); 
+})();
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/59)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/60)
 
 <!-- end -->
 
