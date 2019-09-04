@@ -61,6 +61,7 @@
 
 
 
+
 ## 题目以及答案汇总
 
 ### 第一题: 实现 (5).add(3).minus(2) 功能
@@ -913,3 +914,24 @@ var b = 10;
 })();
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/60)
+
+### 第 49 题: 编写一个函数去除一段字符串中的html标签
+
+编写一个函数去除一段字符串中的html标签，保留内容
+```js
+str1 = '111<p>222<w>333</w>222</p>111';
+str2 = '111<p>222</p>111';
+str3 = '111<p>222<p>333</p>444<p>333</p>222</p>111';
+str4 = '<p>111</p>222<p>333</p>';
+function clearHTML(str) {
+   //wait to do...
+   return result
+}
+console.assert(demo(str1) == '111222333222111')
+console.assert(demo(str2) == '111222111')
+console.assert(demo(str3) == '111222333444333222111')
+console.assert(demo(str4) == '111222333')
+```
+
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/61)
