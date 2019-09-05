@@ -3,26 +3,23 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 编写一个函数去除一段字符串中的html标签
+### 今日题目 事件循环
 
-编写一个函数去除一段字符串中的html标签，保留内容
-```js
-str1 = '111<p>222<w>333</w>222</p>111';
-str2 = '111<p>222</p>111';
-str3 = '111<p>222<p>333</p>444<p>333</p>222</p>111';
-str4 = '<p>111</p>222<p>333</p>';
-function clearHTML(str) {
-   //wait to do...
-   return result
-}
-console.assert(demo(str1) == '111222333222111')
-console.assert(demo(str2) == '111222111')
-console.assert(demo(str3) == '111222333444333222111')
-console.assert(demo(str4) == '111222333')
+正确的打印顺序是什么？解释一下
+```
+button.addEventListener('click', () => {
+  Promise.resolve.then(() => console.log('Microtask 1'));
+  console.log('listener 1');
+});
+
+button.addEventListener('click', () => {
+  Promise.resolve.then(() => console.log('Microtask 2'));
+  console.log('listener 2');
+});
 ```
 
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/61)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/63)
 
 <!-- end -->
 
