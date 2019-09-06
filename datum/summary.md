@@ -52,8 +52,10 @@
   * [第 48 题: 编写一个函数，输出文件相对路径](#第-48-题-编写一个函数输出文件相对路径)
   * [第 48 题: 简单改造下面的代码，使之分别打印 10 和 20。](#第-48-题-简单改造下面的代码使之分别打印-10-和-20)
   * [第 51 题: 事件循环](#第-51-题-事件循环)
+  * [第 52 题: 字符串模式匹配](#第-52-题-字符串模式匹配)
 
 <!-- toc stop -->
+
 
 
 
@@ -955,3 +957,31 @@ button.addEventListener('click', () => {
 
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/63)
+
+### 第 52 题: 字符串模式匹配
+
+要求实现一个工具函数，根据传入的字符串模式，(模式只用x表达，比如说xxx-xxx-xx)，
+返回一个判断字符串模式的函数
+
+```javascript
+function generate(pattern){
+  return function(){}
+}
+
+// test
+// 下面的x表示数字
+let pattern1 = generate('xxx-xxxx-xxxx')
+console.log(pattern1('136-1234-1234')) // true
+console.log(pattern1('136-123-1234')) // false
+
+let pattern2 = generate('x-xx-xxx')
+console.log(pattern2('1-12-123')) // true
+console.log(pattern2('2-13-234')) // true
+console.log(pattern2('2-13222-234')) // false
+
+let pattern3 = generate('xxx:xx:xx')
+console.log(pattern3('136:123:12')) // true
+console.log(pattern3('1234:12')) // false
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/64)
