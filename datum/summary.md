@@ -49,7 +49,7 @@
   * [第 44 题: 实现一个 CamelCase 函数](#第-44-题-实现一个-camelcase-函数)
   * [第 45 题: 设计并实现Promise. race()](#第-45-题-设计并实现promise-race)
   * [第 46 题: 设计并实现Promise. all()](#第-46-题-设计并实现promise-all)
-  * [第 48 题: 编写一个函数，输出文件相对路径](#第-48-题-编写一个函数输出文件相对路径)
+  * [第 47 题: 编写一个函数，输出文件相对路径](#第-48-题-编写一个函数输出文件相对路径)
   * [第 48 题: 简单改造下面的代码，使之分别打印 10 和 20。](#第-48-题-简单改造下面的代码使之分别打印-10-和-20)
   * [第 51 题: 事件循环](#第-51-题-事件循环)
   * [第 52 题: 字符串模式匹配](#第-52-题-字符串模式匹配)
@@ -898,7 +898,7 @@ findUniq([ 0, 0, 0.55, 0, 0 ]) === 0.55
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/54)
 
 
-### 第 48 题: 编写一个函数，输出文件相对路径
+### 第 47 题: 编写一个函数，输出文件相对路径
 
 ```js
 function relativePath() {}
@@ -910,7 +910,7 @@ relativePath('/a/b/c/d/e.js', '/a/b/f/g.js') // '../../../f/g.js'
 
 ### 第 48 题: 简单改造下面的代码，使之分别打印 10 和 20。
 
-```
+```js
 var b = 10;
 (function b(){
     b = 20;
@@ -918,6 +918,7 @@ var b = 10;
 })();
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/60)
+```
 
 ### 第 49 题: 编写一个函数去除一段字符串中的html标签
 
@@ -943,7 +944,7 @@ console.assert(demo(str4) == '111222333')
 ### 第 51 题: 事件循环
 
 正确的打印顺序是什么？解释一下
-```
+```js
 button.addEventListener('click', () => {
   Promise.resolve.then(() => console.log('Microtask 1'));
   console.log('listener 1');
