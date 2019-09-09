@@ -55,8 +55,10 @@
   * [第 51 题: 事件循环](#第-51-题-事件循环)
   * [第 52 题: 字符串模式匹配](#第-52-题-字符串模式匹配)
   * [第 52 题: 编程题](#第-52-题-编程题)
+  * [第 52 题: 编程题](#第-52-题-编程题)
 
 <!-- toc stop -->
+
 
 
 
@@ -989,6 +991,12 @@ console.log(pattern3('1234:12')) // false
 ```
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/64)
+
+### 第 52 题: 编程题
+
+模拟实现一个 localStorage
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/65)
 
 ### 第 52 题: 编程题
 
