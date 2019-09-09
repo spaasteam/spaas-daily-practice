@@ -3,33 +3,11 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 字符串模式匹配
+### 今日题目 编程题
 
-要求实现一个工具函数，根据传入的字符串模式，(模式只用x表达，比如说xxx-xxx-xx)，
-返回一个判断字符串模式的函数
+模拟实现一个 localStorage
 
-```javascript
-function generate(pattern){
-  return function(){}
-}
-
-// test
-// 下面的x表示数字
-let pattern1 = generate('xxx-xxxx-xxxx')
-console.log(pattern1('136-1234-1234')) // true
-console.log(pattern1('136-123-1234')) // false
-
-let pattern2 = generate('x-xx-xxx')
-console.log(pattern2('1-12-123')) // true
-console.log(pattern2('2-13-234')) // true
-console.log(pattern2('2-13222-234')) // false
-
-let pattern3 = generate('xxx:xx:xx')
-console.log(pattern3('136:123:12')) // true
-console.log(pattern3('1234:12')) // false
-```
-
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/64)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/65)
 
 <!-- end -->
 
