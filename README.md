@@ -3,11 +3,17 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 编程题
+### 今日题目 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
 
-模拟实现一个 localStorage
+杨辉三角，是二项式系数在三角形中的一种几何排列,它把二项式系数图形化，把组合数内在的一些代数性质直观地从图形中体现出来，是一种离散型的数与形的结合。
+```js
+var generate = function(numRows) {
+    //实现代码
+};
+```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/65)
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/66)
 
 <!-- end -->
 
