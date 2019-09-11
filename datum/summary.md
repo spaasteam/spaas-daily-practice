@@ -60,8 +60,10 @@
   * [第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。](#第-53-题-给定一个非负整数-numrows生成杨辉三角的前-numrows-行)
   * [第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。](#第-53-题-给定一个非负整数-numrows生成杨辉三角的前-numrows-行)
   * [第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。](#第-53-题-给定一个非负整数-numrows生成杨辉三角的前-numrows-行)
+  * [第 54 题: 请用JavaScript实现一个双向数据绑定](#第-54-题-请用javascript实现一个双向数据绑定)
 
 <!-- toc stop -->
+
 
 
 
@@ -1059,3 +1061,9 @@ var generate = function(numRows) {
 
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/66)
+
+### 第 54 题: 请用JavaScript实现一个双向数据绑定
+
+tips：参考vue2和vue3两种方式
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/67)
