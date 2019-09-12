@@ -3,11 +3,16 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 请用JavaScript实现一个双向数据绑定
+### 今日题目 求字符数组到最大公共前缀
 
-tips：参考vue2和vue3两种方式
+编写一个函数来查找字符串数组中的最长公共前缀。
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/67)
+如果不存在公共前缀，返回空字符串 ""。
+
+输入: ["flower","flow","flight"]
+输出: "fl"
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/68)
 
 <!-- end -->
 
