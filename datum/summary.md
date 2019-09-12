@@ -61,8 +61,10 @@
   * [第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。](#第-53-题-给定一个非负整数-numrows生成杨辉三角的前-numrows-行)
   * [第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。](#第-53-题-给定一个非负整数-numrows生成杨辉三角的前-numrows-行)
   * [第 54 题: 请用JavaScript实现一个双向数据绑定](#第-54-题-请用javascript实现一个双向数据绑定)
+  * [第 55 题: 求字符数组到最大公共前缀](#第-55-题-求字符数组到最大公共前缀)
 
 <!-- toc stop -->
+
 
 
 
@@ -1067,3 +1069,14 @@ var generate = function(numRows) {
 tips：参考vue2和vue3两种方式
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/67)
+
+### 第 55 题: 求字符数组到最大公共前缀
+
+编写一个函数来查找字符串数组中的最长公共前缀。
+
+如果不存在公共前缀，返回空字符串 ""。
+
+输入: ["flower","flow","flight"]
+输出: "fl"
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/68)
