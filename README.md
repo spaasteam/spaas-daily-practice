@@ -3,16 +3,44 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 求字符数组到最大公共前缀
+### 今日题目 写一个函数，用js对象来描述html字符串
 
-编写一个函数来查找字符串数组中的最长公共前缀。
+```javascript
 
-如果不存在公共前缀，返回空字符串 ""。
+var str = '<ul id="a" class="b c" data-test="test">
+  <li>111</li>
+  <li>222</li>
+</ul>'
 
-输入: ["flower","flow","flight"]
-输出: "fl"
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/68)
+function formatter(){
+	
+}
+
+
+->
+
+{
+  tag:'ul',
+  attrs:{
+    id:'a',
+    class:"b c",
+    'data-test':"test"
+  },
+  children:[
+    {
+      tag:'li',
+      children:['111']
+    },
+    {
+      tag:'li',
+      children:['222']
+    }
+  ]
+}
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/69)
 
 <!-- end -->
 
