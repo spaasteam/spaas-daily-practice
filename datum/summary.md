@@ -62,8 +62,10 @@
   * [第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。](#第-53-题-给定一个非负整数-numrows生成杨辉三角的前-numrows-行)
   * [第 54 题: 请用JavaScript实现一个双向数据绑定](#第-54-题-请用javascript实现一个双向数据绑定)
   * [第 55 题: 求字符数组到最大公共前缀](#第-55-题-求字符数组到最大公共前缀)
+  * [第 56 题: 写一个函数，用js对象来描述html字符串](#第-56-题-写一个函数用js对象来描述html字符串)
 
 <!-- toc stop -->
+
 
 
 
@@ -1080,3 +1082,42 @@ tips：参考vue2和vue3两种方式
 输出: "fl"
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/68)
+
+### 第 56 题: 写一个函数，用js对象来描述html字符串
+
+```javascript
+
+var str = '<ul id="a" class="b c" data-test="test">
+  <li>111</li>
+  <li>222</li>
+</ul>'
+
+
+function formatter(){
+	
+}
+
+
+->
+
+{
+  tag:'ul',
+  attrs:{
+    id:'a',
+    class:"b c",
+    'data-test':"test"
+  },
+  children:[
+    {
+      tag:'li',
+      children:['111']
+    },
+    {
+      tag:'li',
+      children:['222']
+    }
+  ]
+}
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/69)
