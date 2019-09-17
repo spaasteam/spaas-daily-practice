@@ -3,44 +3,30 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 写一个函数，用js对象来描述html字符串
+### 今日题目 对角线遍历
 
-```javascript
+给定 M x N 的数组，然后用对角线的顺序把元素都进行一次遍历。
 
-var str = '<ul id="a" class="b c" data-test="test">
-  <li>111</li>
-  <li>222</li>
-</ul>'
+```js
+input
 
+[
+ [ 1, 2, 3, 4 ],
+ [ 5, 6, 7, 8 ],
+ [ 9, 10, 11, 12 ]
+]
 
-function formatter(){
-	
-}
+output
 
+[1,2,5,3,6,9,4,7,10,13,8,11,14,12,15,16]
 
-->
-
-{
-  tag:'ul',
-  attrs:{
-    id:'a',
-    class:"b c",
-    'data-test':"test"
-  },
-  children:[
-    {
-      tag:'li',
-      children:['111']
-    },
-    {
-      tag:'li',
-      children:['222']
-    }
-  ]
-}
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/69)
+示例
+
+![image](https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2302711404,36187441&fm=15&gp=0.jpg)
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/70)
 
 <!-- end -->
 
