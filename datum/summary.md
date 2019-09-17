@@ -52,36 +52,15 @@
   * [第 47 题: 编写一个函数，输出文件相对路径](#第-47-题-编写一个函数输出文件相对路径)
   * [第 48 题: 简单改造下面的代码，使之分别打印 10 和 20。](#第-48-题-简单改造下面的代码使之分别打印-10-和-20)
   * [第 49 题: 编写一个函数去除一段字符串中的html标签](#第-49-题-编写一个函数去除一段字符串中的html标签)
-  * [第 51 题: 事件循环](#第-51-题-事件循环)
-  * [第 52 题: 字符串模式匹配](#第-52-题-字符串模式匹配)
+  * [第 50 题: 事件循环](#第-51-题-事件循环)
+  * [第 51 题: 字符串模式匹配](#第-52-题-字符串模式匹配)
   * [第 52 题: 编程题](#第-52-题-编程题)
-  * [第 52 题: 编程题](#第-52-题-编程题)
-  * [第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。](#第-53-题-给定一个非负整数-numrows生成杨辉三角的前-numrows-行)
-  * [第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。](#第-53-题-给定一个非负整数-numrows生成杨辉三角的前-numrows-行)
-  * [第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。](#第-53-题-给定一个非负整数-numrows生成杨辉三角的前-numrows-行)
   * [第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。](#第-53-题-给定一个非负整数-numrows生成杨辉三角的前-numrows-行)
   * [第 54 题: 请用JavaScript实现一个双向数据绑定](#第-54-题-请用javascript实现一个双向数据绑定)
   * [第 55 题: 求字符数组到最大公共前缀](#第-55-题-求字符数组到最大公共前缀)
   * [第 56 题: 写一个函数，用js对象来描述html字符串](#第-56-题-写一个函数用js对象来描述html字符串)
 
 <!-- toc stop -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -960,7 +939,7 @@ console.assert(demo(str4) == '111222333')
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/61)
 
-### 第 51 题: 事件循环
+### 第 50 题: 事件循环
 
 正确的打印顺序是什么？解释一下
 ```js
@@ -978,7 +957,7 @@ button.addEventListener('click', () => {
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/63)
 
-### 第 52 题: 字符串模式匹配
+### 第 51 题: 字符串模式匹配
 
 要求实现一个工具函数，根据传入的字符串模式，(模式只用x表达，比如说xxx-xxx-xx)，
 返回一个判断字符串模式的函数
@@ -1012,11 +991,6 @@ console.log(pattern3('1234:12')) // false
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/65)
 
-### 第 52 题: 编程题
-
-模拟实现一个 localStorage
-
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/65)
 
 ### 第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
 
@@ -1030,41 +1004,6 @@ var generate = function(numRows) {
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/66)
 
-### 第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
-
-杨辉三角，是二项式系数在三角形中的一种几何排列,它把二项式系数图形化，把组合数内在的一些代数性质直观地从图形中体现出来，是一种离散型的数与形的结合。
-```js
-var generate = function(numRows) {
-    //实现代码
-};
-```
-
-
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/66)
-
-### 第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
-
-杨辉三角，是二项式系数在三角形中的一种几何排列,它把二项式系数图形化，把组合数内在的一些代数性质直观地从图形中体现出来，是一种离散型的数与形的结合。
-```js
-var generate = function(numRows) {
-    //实现代码
-};
-```
-
-
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/66)
-
-### 第 53 题: 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
-
-杨辉三角，是二项式系数在三角形中的一种几何排列,它把二项式系数图形化，把组合数内在的一些代数性质直观地从图形中体现出来，是一种离散型的数与形的结合。
-```js
-var generate = function(numRows) {
-    //实现代码
-};
-```
-
-
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/66)
 
 ### 第 54 题: 请用JavaScript实现一个双向数据绑定
 
