@@ -3,30 +3,20 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 对角线遍历
+### 今日题目 实现 ES6 的 class 语法
 
-给定 M x N 的数组，然后用对角线的顺序把元素都进行一次遍历。
+#### 实现 ES6 的 class 语法
+- 1.可以借助Object.create的特性
+- 2.可以借助Object.setPrototypeOf的特性
 
-```js
-input
+``` js
+ const impleClass = (a, b)=> {
+  // 发挥想象
 
-[
- [ 1, 2, 3, 4 ],
- [ 5, 6, 7, 8 ],
- [ 9, 10, 11, 12 ]
-]
-
-output
-
-[1,2,5,3,6,9,4,7,10,13,8,11,14,12,15,16]
-
+ }
 ```
 
-示例
-
-![image](https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2302711404,36187441&fm=15&gp=0.jpg)
-
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/70)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/71)
 
 <!-- end -->
 
