@@ -60,8 +60,11 @@
   * [第 55 题: 求字符数组到最大公共前缀](#第-55-题-求字符数组到最大公共前缀)
   * [第 56 题: 写一个函数，用js对象来描述html字符串](#第-56-题-写一个函数用js对象来描述html字符串)
   * [第 57 题: 对角线遍历](#第-57-题-对角线遍历)
+  * [第 58 题: 实现 ES6 的 class 语法](#第-58-题-实现-es6-的-class-语法)
+    * [实现 ES6 的 class 语法](#实现-es6-的-class-语法)
 
 <!-- toc stop -->
+
 
 
 
@@ -1087,3 +1090,18 @@ output
 ![image](https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2302711404,36187441&fm=15&gp=0.jpg)
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/70)
+
+### 第 58 题: 实现 ES6 的 class 语法
+
+#### 实现 ES6 的 class 语法
+- 1.可以借助Object.create的特性
+- 2.可以借助Object.setPrototypeOf的特性
+
+``` js
+ const impleClass = (a, b)=> {
+  // 发挥想象
+
+ }
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/71)
