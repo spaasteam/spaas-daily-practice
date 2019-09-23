@@ -63,8 +63,10 @@
   * [第 58 题: 实现 ES6 的 class 语法](#第-58-题-实现-es6-的-class-语法)
     * [实现 ES6 的 class 语法](#实现-es6-的-class-语法)
   * [第 59 题: 写一个洗扑克牌的方法](#第-59-题-写一个洗扑克牌的方法)
+  * [第 60 题: 分割字符串为所有可能的数组](#第-60-题-分割字符串为所有可能的数组)
 
 <!-- toc stop -->
+
 
 
 
@@ -1121,3 +1123,20 @@ console.log(shuffle()); // 以下是随机的["♣10", "♠5", "♠4", "♠3", "
 ```
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/72)
+
+### 第 60 题: 分割字符串为所有可能的数组
+
+编写一个函数，将输入的字符串分割成所有可能的数组
+```js
+// input
+'abc'
+// output
+[['a', 'b', 'c'], ['ab','c'], ['a','bc'], ['abc']]
+
+// input
+'abcc'
+// output
+[['a','b','c','c'], ['a','bc','c'], ['a','bcc'], ['ab','c','c'], ['ab','cc'], ['abc','c'], ['abcc']]
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/73)
