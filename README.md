@@ -3,22 +3,12 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 根据下列规则，编写一个函数
+### 今日题目 求两个日期中间的有效日期
 
-根据输入输出规则，编写一个函数
-```js
-// input
-'abc'
-// output
-[['a', 'b', 'c'], ['a','bc'], ['ab','c'], ['abc']]
-
-// input
-'abcc'
-// output
-[['a','b','c','c'], ['a','bc','c'], ['a','bcc'], ['ab','c','c'], ['ab','cc'], ['abc','c'], ['abcc']]
 ```
+如 2015-2-8 到 2015-3-3，返回【2015-2-8 2015-2-9...】
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/73)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/74)
 
 <!-- end -->
 
