@@ -3,12 +3,32 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 找出整型数组中乘积最大的三个数
+### 今日题目 实现JSON.stringify 和 JSON.parse，要求能够适用于有循环引用的对象
 
-给定一个包含整数的无序数组，要求找出乘积最大的三个数。
+原生的JSON.stringify对于存在循环引用的对象会抛出错误
 
+```javascript
+let obj = { a: 'name' }
+obj.b = obj
+JSON.stringify(obj)
+// 此时会抛出系统错误
+// **Uncaught TypeError: Converting circular structure to JSON**
+```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/79)
+要求实现stringify 和 parse,能处理上述循环引用的情况
+stringify不能抛出错误
+
+```javascript
+let obj = { a: 'name' }
+obj.b = obj
+
+let json = stringify(obj)
+let pObj = parse(json)
+// pObj.a === 'name'
+// pObj.b === pObj
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/80)
 
 <!-- end -->
 
