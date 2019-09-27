@@ -68,8 +68,10 @@
   * [第 62 题: 写一个树形结构的过滤函数](#第-62-题-写一个树形结构的过滤函数)
   * [第 63 题: 找出整型数组中乘积最大的三个数](#第-63-题-找出整型数组中乘积最大的三个数)
   * [第 64 题: 实现JSON.stringify 和 JSON.parse，要求能够适用于有循环引用的对象](#第-64-题-实现jsonstringify-和-jsonparse要求能够适用于有循环引用的对象)
+  * [第 64 题: 实现JSON.stringify 和 JSON.parse，要求能够适用于有循环引用的对象](#第-64-题-实现jsonstringify-和-jsonparse要求能够适用于有循环引用的对象)
 
 <!-- toc stop -->
+
 
 
 
@@ -1233,6 +1235,33 @@ data.treeFilter(fn),fn返回一个Boolean,
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/79)
 
+
+### 第 64 题: 实现JSON.stringify 和 JSON.parse，要求能够适用于有循环引用的对象
+
+原生的JSON.stringify对于存在循环引用的对象会抛出错误
+
+```javascript
+let obj = { a: 'name' }
+obj.b = obj
+JSON.stringify(obj)
+// 此时会抛出系统错误
+// **Uncaught TypeError: Converting circular structure to JSON**
+```
+
+要求实现stringify 和 parse,能处理上述循环引用的情况
+stringify不能抛出错误
+
+```javascript
+let obj = { a: 'name' }
+obj.b = obj
+
+let json = stringify(obj)
+let pObj = parse(json)
+// pObj.a === 'name'
+// pObj.b === pObj
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/80)
 
 ### 第 64 题: 实现JSON.stringify 和 JSON.parse，要求能够适用于有循环引用的对象
 
