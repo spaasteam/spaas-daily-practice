@@ -3,32 +3,11 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 实现JSON.stringify 和 JSON.parse，要求能够适用于有循环引用的对象
+### 今日题目 给定两个数组，写一个方法来计算它们的交集
 
-原生的JSON.stringify对于存在循环引用的对象会抛出错误
+例如：给定 nums1 = [1, 2, 2, 1]，nums2 = [2, 2]，返回 [2, 2]。
 
-```javascript
-let obj = { a: 'name' }
-obj.b = obj
-JSON.stringify(obj)
-// 此时会抛出系统错误
-// **Uncaught TypeError: Converting circular structure to JSON**
-```
-
-要求实现stringify 和 parse,能处理上述循环引用的情况
-stringify不能抛出错误
-
-```javascript
-let obj = { a: 'name' }
-obj.b = obj
-
-let json = stringify(obj)
-let pObj = parse(json)
-// pObj.a === 'name'
-// pObj.b === pObj
-```
-
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/80)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/81)
 
 <!-- end -->
 
