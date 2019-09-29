@@ -69,8 +69,10 @@
   * [第 63 题: 找出整型数组中乘积最大的三个数](#第-63-题-找出整型数组中乘积最大的三个数)
   * [第 64 题: 实现JSON.stringify 和 JSON.parse，要求能够适用于有循环引用的对象](#第-64-题-实现jsonstringify-和-jsonparse要求能够适用于有循环引用的对象)
   * [第 64 题: 实现JSON.stringify 和 JSON.parse，要求能够适用于有循环引用的对象](#第-64-题-实现jsonstringify-和-jsonparse要求能够适用于有循环引用的对象)
+  * [第 65 题: 给定两个数组，写一个方法来计算它们的交集](#第-65-题-给定两个数组写一个方法来计算它们的交集)
 
 <!-- toc stop -->
+
 
 
 
@@ -1289,3 +1291,9 @@ let pObj = parse(json)
 ```
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/80)
+
+### 第 65 题: 给定两个数组，写一个方法来计算它们的交集
+
+例如：给定 nums1 = [1, 2, 2, 1]，nums2 = [2, 2]，返回 [2, 2]。
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/81)
