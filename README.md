@@ -3,11 +3,11 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 给定两个数组，写一个方法来计算它们的交集
+### 今日题目 Javascript实现super()
 
-例如：给定 nums1 = [1, 2, 2, 1]，nums2 = [2, 2]，返回 [2, 2]。
+使用JavaScript实现类似java的super
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/81)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/82)
 
 <!-- end -->
 
