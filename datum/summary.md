@@ -71,8 +71,10 @@
   * [第 64 题: 实现JSON.stringify 和 JSON.parse，要求能够适用于有循环引用的对象](#第-64-题-实现jsonstringify-和-jsonparse要求能够适用于有循环引用的对象)
   * [第 65 题: 给定两个数组，写一个方法来计算它们的交集](#第-65-题-给定两个数组写一个方法来计算它们的交集)
   * [第 66 题: Javascript实现super()](#第-66-题-javascript实现super)
+  * [第 67 题: 获取数组中最大差值](#第-67-题-获取数组中最大差值)
 
 <!-- toc stop -->
+
 
 
 
@@ -1305,3 +1307,16 @@ let pObj = parse(json)
 使用JavaScript实现类似java的super
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/82)
+
+### 第 67 题: 获取数组中最大差值
+
+```js
+let arr = [23, 4, 5, 2, 4, 5, 6, 6, 71, -3];
+const dValue = arr => {
+    ...
+}
+console.log(dValue(arr))  // 74
+```
+
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/83)
