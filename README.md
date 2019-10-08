@@ -3,11 +3,18 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 Javascript实现super()
+### 今日题目 获取数组中最大差值
 
-使用JavaScript实现类似java的super
+```js
+let arr = [23, 4, 5, 2, 4, 5, 6, 6, 71, -3];
+const dValue = arr => {
+    ...
+}
+console.log(dValue(arr))  // 74
+```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/82)
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/83)
 
 <!-- end -->
 
