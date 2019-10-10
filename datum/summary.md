@@ -73,8 +73,10 @@
   * [第 66 题: Javascript实现super()](#第-66-题-javascript实现super)
   * [第 67 题: 获取数组中最大差值](#第-67-题-获取数组中最大差值)
   * [第 68 题: 累加数](#第-68-题-累加数)
+  * [第 69 题: 统计 1~n 整数中出现1的次数（递归）](#第-69-题-统计-1n-整数中出现1的次数递归)
 
 <!-- toc stop -->
+
 
 
 
@@ -1339,3 +1341,12 @@ console.log(dValue(arr))  // 74
 解释: 累加序列为: 1, 1, 2, 3, 5, 8 。1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/84)
+
+### 第 69 题: 统计 1~n 整数中出现1的次数（递归）
+
+```
+例如：统计 1 ~ 400W 出现 1 的次数
+
+（特别注意：1-11中1，10，11算4次，即11算2次）
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/85)
