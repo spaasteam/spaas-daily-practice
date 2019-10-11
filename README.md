@@ -3,14 +3,18 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 统计 1~n 整数中出现1的次数（递归）
+### 今日题目 写出你所能想到的所有方法来组织后续代码执行
 
+```javascript
+console.log(1)
+
+在这里插入代码，组织后续代码执行，方法不限
+
+
+console.log(2)
 ```
-例如：统计 1 ~ 400W 出现 1 的次数
 
-（特别注意：1-11中1，10，11算4次，即11算2次）
-
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/85)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/86)
 
 <!-- end -->
 
