@@ -93,6 +93,7 @@
 
 
 
+
 ## 题目以及答案汇总
 
 ### 第一题: 实现 (5).add(3).minus(2) 功能
@@ -1350,3 +1351,16 @@ console.log(dValue(arr))  // 74
 （特别注意：1-11中1，10，11算4次，即11算2次）
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/85)
+
+### 第 70 题: 写出你所能想到的所有方法来组织后续代码执行
+
+```javascript
+console.log(1)
+
+在这里插入代码，组织后续代码执行，方法不限
+
+
+console.log(2)
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/86)
