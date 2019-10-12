@@ -3,18 +3,17 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 写出你所能想到的所有方法来组织后续代码执行
+### 今日题目 将数组中的所有元素相乘
 
-```javascript
-console.log(1)
+```js
+制作一个 `multiplyAll` 函数，该函数接受一个整数数组，然后返回一个函数，然后接受一个倍数参数，最后返回一个原数组与倍数相乘后的新的数组。
 
-在这里插入代码，组织后续代码执行，方法不限
+example
+multiplyAll([1, 2, 3])(2) = [2, 4, 6];
 
-
-console.log(2)
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/86)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/88)
 
 <!-- end -->
 
