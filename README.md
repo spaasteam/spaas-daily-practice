@@ -3,17 +3,16 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 将数组中的所有元素相乘
+### 今日题目 什么是脱离文档流？有什么办法可以让元素脱离标准的文档流？
 
-```js
-制作一个 `multiplyAll` 函数，该函数接受一个整数数组，然后返回一个函数，然后接受一个倍数参数，最后返回一个原数组与倍数相乘后的新的数组。
+#### 什么是脱离文档流？有什么办法可以让元素脱离标准的文档流？
 
-example
-multiplyAll([1, 2, 3])(2) = [2, 4, 6];
-
+``` html
+发挥你的想象，进行描述。
 ```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/88)
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/89)
 
 <!-- end -->
 
