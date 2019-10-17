@@ -3,11 +3,16 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 请列出JS实现继承的几种方式
+### 今日题目 编写一个方法解析url中query参数
 
-列出JS实现继承的几种方式，并说出各自的优缺点
+```
+有这样一个 URL:http://item.taobao.com/item.htm?a=1&b=2&c=&d=xxx&e，
+请写一段JS程序提取URL中的各个GET参数(参数名和参数个数不确定)，
+将其按 key-value 形式返回到 一个 json 结构中，
+如{a:'1', b:'2', c:'', d:'xxx', e:undefined}。
+```
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/91)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/92)
 
 <!-- end -->
 
