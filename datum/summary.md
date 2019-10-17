@@ -79,8 +79,10 @@
     * [什么是脱离文档流？有什么办法可以让元素脱离标准的文档流？](#什么是脱离文档流有什么办法可以让元素脱离标准的文档流)
   * [第 73 题: 将数组中的内容按顺序进行全排列](#第-73-题-将数组中的内容按顺序进行全排列)
   * [第 74 题: 请列出JS实现继承的几种方式](#第-74-题-请列出js实现继承的几种方式)
+  * [第 75 题: 编写一个方法解析url中query参数](#第-75-题-编写一个方法解析url中query参数)
 
 <!-- toc stop -->
+
 
 
 
@@ -1415,3 +1417,14 @@ function permutation(array2D) { // [['a1', 'a2'], ['b1'], ['c1', 'c2']]
 列出JS实现继承的几种方式，并说出各自的优缺点
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/91)
+
+### 第 75 题: 编写一个方法解析url中query参数
+
+```
+有这样一个 URL:http://item.taobao.com/item.htm?a=1&b=2&c=&d=xxx&e，
+请写一段JS程序提取URL中的各个GET参数(参数名和参数个数不确定)，
+将其按 key-value 形式返回到 一个 json 结构中，
+如{a:'1', b:'2', c:'', d:'xxx', e:undefined}。
+```
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/92)
