@@ -3,16 +3,14 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 编写一个方法解析url中query参数
+### 今日题目 将字符串转为驼峰
 
-```
-有这样一个 URL:http://item.taobao.com/item.htm?a=1&b=2&c=&d=xxx&e，
-请写一段JS程序提取URL中的各个GET参数(参数名和参数个数不确定)，
-将其按 key-value 形式返回到 一个 json 结构中，
-如{a:'1', b:'2', c:'', d:'xxx', e:undefined}。
-```
+简单的编程题，将一个字符串转为驼峰式的写法，如下 ，
+border-bottom-color ----> borderBottomColor
 
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/92)
+
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/93)
 
 <!-- end -->
 
