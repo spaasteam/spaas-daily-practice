@@ -3,14 +3,12 @@ spaas团队的每日一练，欢迎小伙伴们提交踊跃答案!
 
 
 
-### 今日题目 将字符串转为驼峰
+### 今日题目 <script> 标签中的defer 和 async的属性是什么？应该怎么使用他们？
 
-简单的编程题，将一个字符串转为驼峰式的写法，如下 ，
-border-bottom-color ----> borderBottomColor
+如题，请尽可能简短且完整地描述
+**`<script>` 标签中的defer 和 async的属性是什么？有什么区别？应该怎么使用他们？**
 
-
-
-[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/93)
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/94)
 
 <!-- end -->
 
