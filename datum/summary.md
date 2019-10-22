@@ -81,8 +81,10 @@
   * [第 74 题: 请列出JS实现继承的几种方式](#第-74-题-请列出js实现继承的几种方式)
   * [第 75 题: 编写一个方法解析url中query参数](#第-75-题-编写一个方法解析url中query参数)
   * [第 76 题: 将字符串转为驼峰](#第-76-题-将字符串转为驼峰)
+  * [第 77 题: <script> 标签中的defer 和 async的属性是什么？应该怎么使用他们？](#第-77-题-script-标签中的defer-和-async的属性是什么应该怎么使用他们)
 
 <!-- toc stop -->
+
 
 
 
@@ -1439,3 +1441,10 @@ border-bottom-color ----> borderBottomColor
 
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/93)
+
+### 第 77 题: <script> 标签中的defer 和 async的属性是什么？应该怎么使用他们？
+
+如题，请尽可能简短且完整地描述
+**`<script>` 标签中的defer 和 async的属性是什么？有什么区别？应该怎么使用他们？**
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/94)
