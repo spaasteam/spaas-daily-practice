@@ -82,8 +82,10 @@
   * [第 75 题: 编写一个方法解析url中query参数](#第-75-题-编写一个方法解析url中query参数)
   * [第 76 题: 将字符串转为驼峰](#第-76-题-将字符串转为驼峰)
   * [第 77 题: <script> 标签中的defer 和 async的属性是什么？应该怎么使用他们？](#第-77-题-script-标签中的defer-和-async的属性是什么应该怎么使用他们)
+  * [第 78 题: 请描述下函数的执行过程](#第-78-题-请描述下函数的执行过程)
 
 <!-- toc stop -->
+
 
 
 
@@ -1448,3 +1450,9 @@ border-bottom-color ----> borderBottomColor
 **`<script>` 标签中的defer 和 async的属性是什么？有什么区别？应该怎么使用他们？**
 
 [做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/94)
+
+### 第 78 题: 请描述下函数的执行过程
+
+请描述下函数的执行过程
+
+[做题连接](https://github.com/spaasteam/spaas-daily-practice/issues/95)
